@@ -35,7 +35,7 @@ projects.
 
 <!-- OSS-STATS:START -->
 
-**14 merged pull requests** across **10 upstream projects** totalling **199.9k stars** · **6** in review
+**14 merged pull requests** across **10 upstream projects** totalling **200.1k stars** · **6** in review
 
 ### Merged
 
@@ -45,7 +45,7 @@ projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.5k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 57.8k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.4k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 21.8k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 21.9k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1414](https://github.com/uptrace/bun/pull/1414) | fix(bunotel): honor WithMeterProvider when reporting DB stats metrics |
@@ -60,7 +60,7 @@ projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 16.9k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read the resource once for all output parameters. |
+| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read the resource once for all output parameters. |
 | [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) | 12.1k | [#1956](https://github.com/kubeshark/kubeshark/pull/1956) | helm: use Recreate strategy for hub Deployment when local snapshots PVC… |
 | [velero-io/velero](https://github.com/velero-io/velero) | 10.3k | [#10212](https://github.com/velero-io/velero/pull/10212) | Fix Zip Slip path check accepting a sibling directory in archive extrac… |
 | [anchore/syft](https://github.com/anchore/syft) | 9.5k | [#5121](https://github.com/anchore/syft/pull/5121) | fix(binary): match istio snapshot and older pre-release versions |
