@@ -35,7 +35,7 @@ projects.
 
 <!-- OSS-STATS:START -->
 
-**14 merged pull requests** across **10 upstream projects** totalling **200.1k stars** · **6** in review
+**14 merged pull requests** across **10 upstream projects** totalling **200.2k stars** · **6** in review
 
 ### Merged
 
@@ -44,7 +44,7 @@ projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.5k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.5k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 57.8k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.4k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.5k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 21.9k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
