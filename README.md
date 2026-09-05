@@ -35,14 +35,14 @@ projects.
 
 <!-- OSS-STATS:START -->
 
-**14 merged pull requests** across **10 upstream projects** totalling **200.2k stars** · **6** in review
+**14 merged pull requests** across **10 upstream projects** totalling **200.3k stars** · **7** in review
 
 ### Merged
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.5k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.5k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 59.6k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 59.6k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 57.8k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.5k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 21.9k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
@@ -65,6 +65,7 @@ projects.
 | [velero-io/velero](https://github.com/velero-io/velero) | 10.3k | [#10212](https://github.com/velero-io/velero/pull/10212) | Fix Zip Slip path check accepting a sibling directory in archive extrac… |
 | [anchore/syft](https://github.com/anchore/syft) | 9.5k | [#5121](https://github.com/anchore/syft/pull/5121) | fix(binary): match istio snapshot and older pre-release versions |
 | [redpanda-data/connect](https://github.com/redpanda-data/connect) | 8.7k | [#4656](https://github.com/redpanda-data/connect/pull/4656) | slack: only enforce token prefixes on literal values |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 97 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
 | [free5gc/ike](https://github.com/free5gc/ike) | 3 | [#24](https://github.com/free5gc/ike/pull/24) | fix: prevent slice-bounds panics from uint8 SPI offset overflow |
 
 <!-- OSS-STATS:END -->
