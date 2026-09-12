@@ -35,7 +35,7 @@ projects.
 
 <!-- OSS-STATS:START -->
 
-**20 merged pull requests** across **12 upstream projects** totalling **201.2k stars** · **12** in review
+**20 merged pull requests** across **12 upstream projects** totalling **201.4k stars** · **12** in review
 
 ### Merged
 
@@ -49,7 +49,7 @@ projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.7k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.6k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 22.2k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 22.4k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1414](https://github.com/uptrace/bun/pull/1414) | fix(bunotel): honor WithMeterProvider when reporting DB stats metrics |
