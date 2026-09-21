@@ -93,8 +93,8 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 <!-- OSS-STATS:END -->
 
 <sub>Regenerated nightly from the GitHub API by
-[`scripts/build_stats.py`](scripts/build_stats.py). Own repositories are
-excluded, so every row is an upstream contribution.</sub>
+[`scripts/build_stats.py`](scripts/build_stats.py). Own and private repositories
+are excluded, so every row is a public upstream contribution.</sub>
 
 ### Tech
 

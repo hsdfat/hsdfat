@@ -52,14 +52,12 @@ def fetch_prs():
     return items
 
 
-def stars(repo, cache):
+def repository(repo, cache):
     if repo not in cache:
         try:
-            cache[repo] = api(f"https://api.github.com/repos/{repo}").get(
-                "stargazers_count", 0
-            )
+            cache[repo] = api(f"https://api.github.com/repos/{repo}")
         except urllib.error.HTTPError:
-            cache[repo] = 0
+            cache[repo] = None
     return cache[repo]
 
 
@@ -97,12 +95,17 @@ def build():
         # Own repos are not upstream contributions.
         if repo.split("/")[0].lower() == USER.lower():
             continue
+        info = repository(repo, star_cache)
+        # A profile README is public. Never expose private repositories when
+        # the generator is run with a personal token that can see them.
+        if not info or info.get("private"):
+            continue
         row = {
             "repo": repo,
             "number": it["number"],
             "title": it["title"],
             "url": it["html_url"],
-            "stars": stars(repo, star_cache),
+            "stars": info.get("stargazers_count", 0),
         }
         if it.get("pull_request", {}).get("merged_at"):
             merged.append(row)
