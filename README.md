@@ -1,41 +1,33 @@
 ## Hi, I'm hsdfat 👋
 
-Go engineer working on **telecom core networks** and the cloud-native
-infrastructure they run on. Most of my time goes to mobile-core network
-functions; the rest goes upstream, into the Kubernetes, storage, and
-observability tools I depend on.
+Go engineer building **telecom core networks** and the cloud-native systems
+around them. I work primarily on 5G/EPC network functions, then take the
+production problems I find upstream to the Go and Kubernetes ecosystem.
 
----
+### Focus
 
-### 🛰️ What I'm building — `udm-system`
+- 5G Core, EPC interworking, Diameter, SBI, HTTP/2, and NETCONF
+- Go services on Kubernetes, with Helm-based delivery and end-to-end testing
+- Storage, observability, and performance work that makes production systems
+  safer under load
 
-A Go monorepo implementing a combined **5GC + EPC core stack** — one service
-per 3GPP network function, deployed to Kubernetes via Helm.
+### Current work — `udm-system`
 
-| Layer | Components |
-|---|---|
-| **5G core** | UDM, AUSF, UDR, context-management, provision |
-| **EPC / legacy interworking** | HSS, EIR, Diameter gateway (S6a / Cx / Sh) |
-| **Edge** | HTTP/2 SBI gateway, NETCONF control plane |
-| **Data** | Distributed SQL backend, event-log and trace pipeline |
-| **Tooling** | End-to-end test harness, performance and overload profilers |
+A Go monorepo for a combined 5GC + EPC stack: UDM, AUSF, UDR, HSS, EIR,
+Diameter and HTTP/2 gateways, provisioning, and the test and profiling tools
+needed to operate them.
 
-Interesting parts: Per-function Go modules with shared crypto/database/diameter
-libraries, 3GPP-aligned SBI request validation, Diameter↔HTTP protocol
-translation, and load-testing tools built to find the overload cliff before
-production does.
+### Open source
 
----
-
-### 🌍 Open Source Contributions
-
-I contribute upstream fixes to the Go infrastructure I run in production —
-storage, Kubernetes tooling, policy engines, stream processors, and 5G core
-projects.
+I contribute production-driven fixes to the infrastructure I use: Kubernetes
+tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**31 merged pull requests** across **15 upstream projects** totalling **243.7k stars** · **18** in review
+**36 merged pull requests** across **15 upstream projects** totalling **244k stars** · **13** in review
+
+<details>
+<summary>Browse every merged and open upstream pull request</summary>
 
 ### Merged
 
@@ -47,8 +39,13 @@ projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
+| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
+| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.1k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 38.8k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 39.1k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.9k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.9k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.9k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -77,12 +74,7 @@ projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.2k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.2k | [#6196](https://github.com/bluenviron/mediamtx/pull/6196) | add udpWriteBufferSize parameter (#6100) |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read the resource once for all output parameters |
@@ -96,27 +88,15 @@ projects.
 | [free5gc/udr](https://github.com/free5gc/udr) | 4 | [#70](https://github.com/free5gc/udr/pull/70) | fix: return ProblemDetails for unmatched resource URIs |
 | [free5gc/ike](https://github.com/free5gc/ike) | 3 | [#24](https://github.com/free5gc/ike/pull/24) | fix: prevent slice-bounds panics from uint8 SPI offset overflow |
 
+</details>
+
 <!-- OSS-STATS:END -->
 
-<sub>Table regenerated nightly from the GitHub API by
-[`scripts/build_stats.py`](scripts/build_stats.py) — own repositories excluded,
-so every row is an upstream contribution.</sub>
+<sub>Regenerated nightly from the GitHub API by
+[`scripts/build_stats.py`](scripts/build_stats.py). Own repositories are
+excluded, so every row is an upstream contribution.</sub>
 
----
+### Tech
 
-### 🧰 Tech
-
-`Go` · `Kubernetes` · `Helm` · `Docker` · `Diameter` · `HTTP/2 · SBI` ·
-`NETCONF` · `gRPC / protobuf` · `distributed SQL` · `eBPF-adjacent tooling`
-
----
-
-<p align="left">
-  <img height="150" alt="hsdfat's GitHub stats"
-       src="https://github-readme-stats.vercel.app/api?username=hsdfat&show_icons=true&hide_border=true&include_all_commits=true&theme=transparent" />
-  <img height="150" alt="Top languages"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=hsdfat&layout=compact&hide_border=true&langs_count=6&theme=transparent" />
-</p>
-
-<sub>The cards above reflect activity in my own repositories only — the upstream
-work is in the table above.</sub>
+`Go` · `Kubernetes` · `Helm` · `Docker` · `gRPC / protobuf` · `Diameter` ·
+`HTTP/2 · SBI` · `NETCONF` · `distributed SQL` · `observability`

@@ -121,12 +121,16 @@ def build():
         f"**{len(merged)} merged pull requests** across **{projects} upstream projects** "
         f"totalling **{fmt_stars(total_stars)} stars** · **{len(open_)}** in review",
         "",
+        "<details>",
+        "<summary>Browse every merged and open upstream pull request</summary>",
+        "",
         "### Merged",
         "",
         table(merged),
     ]
     if open_:
         parts += ["", "### In review", "", table(open_)]
+    parts += ["", "</details>"]
     return "\n".join(parts)
 
 
