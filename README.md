@@ -35,7 +35,7 @@ projects.
 
 <!-- OSS-STATS:START -->
 
-**30 merged pull requests** across **14 upstream projects** totalling **230.6k stars** · **19** in review
+**31 merged pull requests** across **15 upstream projects** totalling **243.6k stars** · **18** in review
 
 ### Merged
 
@@ -48,7 +48,7 @@ projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
 | [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.1k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 38.2k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 38.6k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.9k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.9k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.9k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -56,13 +56,14 @@ projects.
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 34.9k | [#11399](https://github.com/seaweedfs/seaweedfs/pull/11399) | fix(volume): validate sizes in ReadNeedleBlob and WriteNeedleBlob |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
+| [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3752](https://github.com/IBM/sarama/pull/3752) | fix(client): only deregister the broker registered under that ID |
 | [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11.9k | [#2143](https://github.com/shirou/gopsutil/pull/2143) | [docker][linux]: support cgroup v2 in Cgroup* functions |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1414](https://github.com/uptrace/bun/pull/1414) | fix(bunotel): honor WithMeterProvider when reporting DB stats metrics |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1415](https://github.com/uptrace/bun/pull/1415) | fix(relation): do not duplicate joined models on a shared base model |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 939 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 354 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 354 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 355 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 355 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#337](https://github.com/nickvsnetworking/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 98 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 98 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
@@ -85,7 +86,6 @@ projects.
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.2k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.2k | [#6196](https://github.com/bluenviron/mediamtx/pull/6196) | add udpWriteBufferSize parameter (#6100) |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read the resource once for all output parameters. |
-| [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3752](https://github.com/IBM/sarama/pull/3752) | fix(client): only deregister the broker registered under that ID |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3753](https://github.com/IBM/sarama/pull/3753) | fix(offset): don't block PartitionOffsetManager.Close without auto-comm… |
 | [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) | 12.1k | [#1956](https://github.com/kubeshark/kubeshark/pull/1956) | helm: use Recreate strategy for hub Deployment when local snapshots PVC… |
 | [velero-io/velero](https://github.com/velero-io/velero) | 10.3k | [#10212](https://github.com/velero-io/velero/pull/10212) | Fix Zip Slip path check accepting a sibling directory in archive extrac… |
