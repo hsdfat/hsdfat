@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**36 merged pull requests** across **15 upstream projects** totalling **246.4k stars** · **17** in review
+**36 merged pull requests** across **15 upstream projects** totalling **246.7k stars** · **26** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -33,19 +33,19 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.2k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 41.2k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 41.5k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -62,11 +62,11 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 355 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 355 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#337](https://github.com/nickvsnetworking/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 99 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 99 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 99 | [#375](https://github.com/bluenviron/mediacommon/pull/375) | pmp4: support tracks without edts |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 99 | [#376](https://github.com/bluenviron/mediacommon/pull/376) | pmp4: return seek errors from GetPayload |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 99 | [#377](https://github.com/bluenviron/mediacommon/pull/377) | pmp4: support tracks longer than 2^32 ticks |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#375](https://github.com/bluenviron/mediacommon/pull/375) | pmp4: support tracks without edts |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#376](https://github.com/bluenviron/mediacommon/pull/376) | pmp4: return seek errors from GetPayload |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#377](https://github.com/bluenviron/mediacommon/pull/377) | pmp4: support tracks longer than 2^32 ticks |
 | [free5gc/amf](https://github.com/free5gc/amf) | 23 | [#232](https://github.com/free5gc/amf/pull/232) | fix: guard non-string DNN type assertions in GMM handler |
 | [free5gc/tngf](https://github.com/free5gc/tngf) | 5 | [#47](https://github.com/free5gc/tngf/pull/47) | fix: prevent slice-bounds panic on malformed IKE SA proposal |
 
@@ -74,20 +74,29 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 76.1k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 76.1k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: Support third-party http.authentication.hashes modules |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.3k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.3k | [#6196](https://github.com/bluenviron/mediamtx/pull/6196) | add udpWriteBufferSize parameter (#6100) |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read the resource once for all output parameters |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3753](https://github.com/IBM/sarama/pull/3753) | fix(offset): don't block PartitionOffsetManager.Close without auto-comm… |
 | [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) | 12.1k | [#1956](https://github.com/kubeshark/kubeshark/pull/1956) | helm: use Recreate strategy for hub Deployment when local snapshots PVC… |
+| [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11.9k | [#2163](https://github.com/shirou/gopsutil/pull/2163) | [cpu][darwin]: don't crash in getFrequency when pmgr lacks voltage-stat… |
 | [velero-io/velero](https://github.com/velero-io/velero) | 10.3k | [#10212](https://github.com/velero-io/velero/pull/10212) | Fix Zip Slip path check accepting a sibling directory in archive extrac… |
 | [anchore/syft](https://github.com/anchore/syft) | 9.6k | [#5121](https://github.com/anchore/syft/pull/5121) | fix(binary): match istio snapshot and older pre-release versions |
 | [redpanda-data/connect](https://github.com/redpanda-data/connect) | 8.8k | [#4656](https://github.com/redpanda-data/connect/pull/4656) | slack: only enforce token prefixes on literal values |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1435](https://github.com/uptrace/bun/pull/1435) | fix: resolve map column types before scanning rows |
+| [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1225](https://github.com/vishvananda/netlink/pull/1225) | filter: use EncDestIPMask when encoding Flower EncDestIP |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 940 | [#1178](https://github.com/bluenviron/gortsplib/pull/1178) | format: support mismatched fmtp payload type |
+| [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 940 | [#1181](https://github.com/bluenviron/gortsplib/pull/1181) | client: support SETUP responses without Transport header |
 | [pion/rtp](https://github.com/pion/rtp) | 477 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
+| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 315 | [#172](https://github.com/gopacket/gopacket/pull/172) | packet: set zeroCopy in NewZeroCopyPacketSource |
+| [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 293 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#338](https://github.com/nickvsnetworking/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 99 | [#380](https://github.com/bluenviron/mediacommon/pull/380) | mpegts: fix reading UDP datagrams larger than 1316 bytes |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#380](https://github.com/bluenviron/mediacommon/pull/380) | mpegts: fix reading UDP datagrams larger than 1316 bytes |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#382](https://github.com/bluenviron/mediacommon/pull/382) | h265: fix DTS extraction of access units that contain only SEI |
 | [free5gc/udm](https://github.com/free5gc/udm) | 9 | [#96](https://github.com/free5gc/udm/pull/96) | fix(udm): return ProblemDetails for unmatched resource URIs |
 | [free5gc/udr](https://github.com/free5gc/udr) | 4 | [#70](https://github.com/free5gc/udr/pull/70) | fix: return ProblemDetails for unmatched resource URIs |
 | [free5gc/ike](https://github.com/free5gc/ike) | 3 | [#24](https://github.com/free5gc/ike/pull/24) | fix: prevent slice-bounds panics from uint8 SPI offset overflow |
