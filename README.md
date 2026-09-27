@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**36 merged pull requests** across **15 upstream projects** totalling **246.7k stars** · **26** in review
+**37 merged pull requests** across **16 upstream projects** totalling **247.3k stars** · **39** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -45,7 +45,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.2k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 41.5k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 41.7k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -61,6 +61,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 940 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 355 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 355 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
+| [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 293 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#337](https://github.com/nickvsnetworking/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
@@ -78,6 +79,8 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 76.1k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: Support third-party http.authentication.hashes modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
+| [nushell/nushell](https://github.com/nushell/nushell) | 40.6k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11483](https://github.com/seaweedfs/seaweedfs/pull/11483) | fix(volume-rust): reserve a disk before replacing a replica in VolumeCo… |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.3k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.3k | [#6196](https://github.com/bluenviron/mediamtx/pull/6196) | add udpWriteBufferSize parameter (#6100) |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read the resource once for all output parameters |
@@ -87,16 +90,27 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [velero-io/velero](https://github.com/velero-io/velero) | 10.3k | [#10212](https://github.com/velero-io/velero/pull/10212) | Fix Zip Slip path check accepting a sibling directory in archive extrac… |
 | [anchore/syft](https://github.com/anchore/syft) | 9.6k | [#5121](https://github.com/anchore/syft/pull/5121) | fix(binary): match istio snapshot and older pre-release versions |
 | [redpanda-data/connect](https://github.com/redpanda-data/connect) | 8.8k | [#4656](https://github.com/redpanda-data/connect/pull/4656) | slack: only enforce token prefixes on literal values |
+| [woodpecker-ci/woodpecker](https://github.com/woodpecker-ci/woodpecker) | 7.9k | [#7189](https://github.com/woodpecker-ci/woodpecker/pull/7189) | Release agents waiting on gRPC long polls on server shutdown |
+| [woodpecker-ci/woodpecker](https://github.com/woodpecker-ci/woodpecker) | 7.9k | [#7192](https://github.com/woodpecker-ci/woodpecker/pull/7192) | Handle concurrent persist of identical pipeline config |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1435](https://github.com/uptrace/bun/pull/1435) | fix: resolve map column types before scanning rows |
+| [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.6k | [#11229](https://github.com/apache/arrow-rs/pull/11229) | fix(parquet): support non-primitive map keys in record reader |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1225](https://github.com/vishvananda/netlink/pull/1225) | filter: use EncDestIPMask when encoding Flower EncDestIP |
+| [apache/iceberg-rust](https://github.com/apache/iceberg-rust) | 1.4k | [#3284](https://github.com/apache/iceberg-rust/pull/3284) | fix(spec): accept object-form partition-spec in manifest metadata |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 940 | [#1178](https://github.com/bluenviron/gortsplib/pull/1178) | format: support mismatched fmtp payload type |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 940 | [#1181](https://github.com/bluenviron/gortsplib/pull/1181) | client: support SETUP responses without Transport header |
+| [pion/stun](https://github.com/pion/stun) | 859 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
+| [algesten/str0m](https://github.com/algesten/str0m) | 627 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
+| [asticode/go-astits](https://github.com/asticode/go-astits) | 619 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
+| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 560 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
+| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 560 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: don't send the client's query_id with the insert DESCRIBE TABLE |
 | [pion/rtp](https://github.com/pion/rtp) | 477 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
+| [scottlamb/retina](https://github.com/scottlamb/retina) | 372 | [#140](https://github.com/scottlamb/retina/pull/140) | H.265: treat all IRAP pictures (CRA/BLA) as random access points |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 315 | [#172](https://github.com/gopacket/gopacket/pull/172) | packet: set zeroCopy in NewZeroCopyPacketSource |
-| [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 293 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
+| [pion/interceptor](https://github.com/pion/interceptor) | 147 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#338](https://github.com/nickvsnetworking/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#380](https://github.com/bluenviron/mediacommon/pull/380) | mpegts: fix reading UDP datagrams larger than 1316 bytes |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#382](https://github.com/bluenviron/mediacommon/pull/382) | h265: fix DTS extraction of access units that contain only SEI |
+| [free5gc/smf](https://github.com/free5gc/smf) | 24 | [#244](https://github.com/free5gc/smf/pull/244) | fix: release SMContext and reject when UDM token fetch fails |
 | [free5gc/udm](https://github.com/free5gc/udm) | 9 | [#96](https://github.com/free5gc/udm/pull/96) | fix(udm): return ProblemDetails for unmatched resource URIs |
 | [free5gc/udr](https://github.com/free5gc/udr) | 4 | [#70](https://github.com/free5gc/udr/pull/70) | fix: return ProblemDetails for unmatched resource URIs |
 | [free5gc/ike](https://github.com/free5gc/ike) | 3 | [#24](https://github.com/free5gc/ike/pull/24) | fix: prevent slice-bounds panics from uint8 SPI offset overflow |
