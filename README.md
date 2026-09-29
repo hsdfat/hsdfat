@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**40 merged pull requests** across **17 upstream projects** totalling **248.4k stars** · **36** in review
+**40 merged pull requests** across **17 upstream projects** totalling **248.8k stars** · **36** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -45,13 +45,13 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.2k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 42.1k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11398](https://github.com/seaweedfs/seaweedfs/pull/11398) | fix(volume): stop ScanVolumeFileFrom at a header it cannot advance past |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11399](https://github.com/seaweedfs/seaweedfs/pull/11399) | fix(volume): validate sizes in ReadNeedleBlob and WriteNeedleBlob |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35k | [#11483](https://github.com/seaweedfs/seaweedfs/pull/11483) | fix(volume-rust): reserve a disk before replacing a replica in VolumeCo… |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 42.5k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#11398](https://github.com/seaweedfs/seaweedfs/pull/11398) | fix(volume): stop ScanVolumeFileFrom at a header it cannot advance past |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#11399](https://github.com/seaweedfs/seaweedfs/pull/11399) | fix(volume): validate sizes in ReadNeedleBlob and WriteNeedleBlob |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#11483](https://github.com/seaweedfs/seaweedfs/pull/11483) | fix(volume-rust): reserve a disk before replacing a replica in VolumeCo… |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3752](https://github.com/IBM/sarama/pull/3752) | fix(client): only deregister the broker registered under that ID |
@@ -61,16 +61,16 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1415](https://github.com/uptrace/bun/pull/1415) | fix(relation): do not duplicate joined models on a shared base model |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 940 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
-| [algesten/str0m](https://github.com/algesten/str0m) | 627 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
+| [algesten/str0m](https://github.com/algesten/str0m) | 628 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 356 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 356 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 294 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#337](https://github.com/nickvsnetworking/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#375](https://github.com/bluenviron/mediacommon/pull/375) | pmp4: support tracks without edts |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#376](https://github.com/bluenviron/mediacommon/pull/376) | pmp4: return seek errors from GetPayload |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#377](https://github.com/bluenviron/mediacommon/pull/377) | pmp4: support tracks longer than 2^32 ticks |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#375](https://github.com/bluenviron/mediacommon/pull/375) | pmp4: support tracks without edts |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#376](https://github.com/bluenviron/mediacommon/pull/376) | pmp4: return seek errors from GetPayload |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#377](https://github.com/bluenviron/mediacommon/pull/377) | pmp4: support tracks longer than 2^32 ticks |
 | [free5gc/amf](https://github.com/free5gc/amf) | 23 | [#232](https://github.com/free5gc/amf/pull/232) | fix: guard non-string DNN type assertions in GMM handler |
 | [free5gc/tngf](https://github.com/free5gc/tngf) | 5 | [#47](https://github.com/free5gc/tngf/pull/47) | fix: prevent slice-bounds panic on malformed IKE SA proposal |
 
@@ -78,8 +78,8 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 76.1k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 76.1k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: Support third-party http.authentication.hashes modules |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 76.2k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 76.2k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: Support third-party http.authentication.hashes modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.6k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
@@ -108,8 +108,8 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 315 | [#172](https://github.com/gopacket/gopacket/pull/172) | packet: set zeroCopy in NewZeroCopyPacketSource |
 | [pion/interceptor](https://github.com/pion/interceptor) | 147 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#338](https://github.com/nickvsnetworking/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#380](https://github.com/bluenviron/mediacommon/pull/380) | mpegts: fix reading UDP datagrams larger than 1316 bytes |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 100 | [#382](https://github.com/bluenviron/mediacommon/pull/382) | h265: fix DTS extraction of access units that contain only SEI |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#380](https://github.com/bluenviron/mediacommon/pull/380) | mpegts: fix reading UDP datagrams larger than 1316 bytes |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#382](https://github.com/bluenviron/mediacommon/pull/382) | h265: fix DTS extraction of access units that contain only SEI |
 | [free5gc/smf](https://github.com/free5gc/smf) | 24 | [#244](https://github.com/free5gc/smf/pull/244) | fix: release SMContext and reject when UDM token fetch fails |
 | [free5gc/udm](https://github.com/free5gc/udm) | 9 | [#96](https://github.com/free5gc/udm/pull/96) | fix(udm): return ProblemDetails for unmatched resource URIs |
 | [free5gc/udr](https://github.com/free5gc/udr) | 4 | [#70](https://github.com/free5gc/udr/pull/70) | fix: return ProblemDetails for unmatched resource URIs |
