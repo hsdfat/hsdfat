@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**40 merged pull requests** across **17 upstream projects** totalling **248.8k stars** · **36** in review
+**40 merged pull requests** across **17 upstream projects** totalling **249.2k stars** · **36** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -45,7 +45,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.2k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 42.5k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 42.8k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.1k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -105,12 +105,12 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 560 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: don't send the client's query_id with the insert DESCRIBE TABLE |
 | [pion/rtp](https://github.com/pion/rtp) | 478 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
 | [scottlamb/retina](https://github.com/scottlamb/retina) | 372 | [#140](https://github.com/scottlamb/retina/pull/140) | H.265: treat all IRAP pictures (CRA/BLA) as random access points |
-| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 315 | [#172](https://github.com/gopacket/gopacket/pull/172) | packet: set zeroCopy in NewZeroCopyPacketSource |
+| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 316 | [#172](https://github.com/gopacket/gopacket/pull/172) | packet: set zeroCopy in NewZeroCopyPacketSource |
 | [pion/interceptor](https://github.com/pion/interceptor) | 147 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#338](https://github.com/nickvsnetworking/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#380](https://github.com/bluenviron/mediacommon/pull/380) | mpegts: fix reading UDP datagrams larger than 1316 bytes |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 101 | [#382](https://github.com/bluenviron/mediacommon/pull/382) | h265: fix DTS extraction of access units that contain only SEI |
-| [free5gc/smf](https://github.com/free5gc/smf) | 24 | [#244](https://github.com/free5gc/smf/pull/244) | fix: release SMContext and reject when UDM token fetch fails |
+| [free5gc/smf](https://github.com/free5gc/smf) | 25 | [#244](https://github.com/free5gc/smf/pull/244) | fix: release SMContext and reject when UDM token fetch fails |
 | [free5gc/udm](https://github.com/free5gc/udm) | 9 | [#96](https://github.com/free5gc/udm/pull/96) | fix(udm): return ProblemDetails for unmatched resource URIs |
 | [free5gc/udr](https://github.com/free5gc/udr) | 4 | [#70](https://github.com/free5gc/udr/pull/70) | fix: return ProblemDetails for unmatched resource URIs |
 | [free5gc/ike](https://github.com/free5gc/ike) | 3 | [#24](https://github.com/free5gc/ike/pull/24) | fix: prevent slice-bounds panics from uint8 SPI offset overflow |
