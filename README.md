@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**46 merged pull requests** (1 later reverted) across **21 upstream projects** totalling **265.9k stars** · **29** in review
+**46 merged pull requests** (1 later reverted) across **21 upstream projects** totalling **266k stars** · **29** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -66,8 +66,8 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 940 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
 | [algesten/str0m](https://github.com/algesten/str0m) | 629 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 358 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 358 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 359 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 359 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 316 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 295 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#337](https://github.com/nickvsnetworking/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
@@ -104,7 +104,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [pion/stun](https://github.com/pion/stun) | 860 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
 | [asticode/go-astits](https://github.com/asticode/go-astits) | 618 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 560 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
-| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 560 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: don't send the client's query_id with the insert DESCRIBE TABLE |
+| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 560 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
 | [pion/rtp](https://github.com/pion/rtp) | 478 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
 | [scottlamb/retina](https://github.com/scottlamb/retina) | 373 | [#140](https://github.com/scottlamb/retina/pull/140) | H.265: treat all IRAP pictures (CRA/BLA) as random access points |
 | [pion/interceptor](https://github.com/pion/interceptor) | 147 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
