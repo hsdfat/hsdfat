@@ -21,6 +21,8 @@ README = os.path.join(os.path.dirname(__file__), os.pardir, "README.md")
 START = "<!-- OSS-STATS:START -->"
 END = "<!-- OSS-STATS:END -->"
 TITLE_MAX = 72
+# Keep known reverts visible in the contribution history and nightly refreshes.
+REVERTED_PRS = {("gopacket/gopacket", 172)}
 
 
 def api(url):
@@ -77,11 +79,14 @@ def shorten(title):
 def table(rows):
     out = ["| Project | ★ | PR | Contribution |", "|---|---:|---|---|"]
     for r in rows:
+        contribution = shorten(r["title"])
+        if r.get("reverted"):
+            contribution = f"**Reverted after merge.** {contribution}"
         out.append(
             f"| [{r['repo']}](https://github.com/{r['repo']}) "
             f"| {fmt_stars(r['stars'])} "
             f"| [#{r['number']}]({r['url']}) "
-            f"| {shorten(r['title'])} |"
+            f"| {contribution} |"
         )
     return "\n".join(out)
 
@@ -108,6 +113,7 @@ def build():
             "stars": info.get("stargazers_count", 0),
         }
         if it.get("pull_request", {}).get("merged_at"):
+            row["reverted"] = (repo, it["number"]) in REVERTED_PRS
             merged.append(row)
         elif it["state"] == "open":
             open_.append(row)
@@ -119,9 +125,11 @@ def build():
     upstreams = {r["repo"]: r["stars"] for r in merged}
     projects = len(upstreams)
     total_stars = sum(upstreams.values())
+    reverted = sum(r["reverted"] for r in merged)
+    revert_note = f" ({reverted} later reverted)" if reverted else ""
 
     parts = [
-        f"**{len(merged)} merged pull requests** across **{projects} upstream projects** "
+        f"**{len(merged)} merged pull requests**{revert_note} across **{projects} upstream projects** "
         f"totalling **{fmt_stars(total_stars)} stars** · **{len(open_)}** in review",
         "",
         "<details>",
