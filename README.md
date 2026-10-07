@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**50 merged pull requests** (1 later reverted) across **24 upstream projects** totalling **285.6k stars** · **25** in review
+**50 merged pull requests** (1 later reverted) across **24 upstream projects** totalling **285.9k stars** · **25** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -33,20 +33,20 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.3k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 43.9k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 44.1k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.3k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.3k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.3k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -67,11 +67,11 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.6k | [#11229](https://github.com/apache/arrow-rs/pull/11229) | fix(parquet): support non-primitive map keys in record reader |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 941 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
-| [algesten/str0m](https://github.com/algesten/str0m) | 632 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
+| [algesten/str0m](https://github.com/algesten/str0m) | 634 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 560 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 560 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 360 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 360 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 361 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 361 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 316 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 295 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#337](https://github.com/nickvsnetworking/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
@@ -90,10 +90,10 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 |---|---:|---|---|
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 77.4k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 77.4k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: Support third-party http.authentication.hashes modules |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.1k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.6k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
-| [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.3k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
-| [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.3k | [#6196](https://github.com/bluenviron/mediamtx/pull/6196) | add udpWriteBufferSize parameter (#6100) |
+| [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.4k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
+| [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.4k | [#6196](https://github.com/bluenviron/mediamtx/pull/6196) | add udpWriteBufferSize parameter (#6100) |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read resource once for outputs (fixes #5658) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3753](https://github.com/IBM/sarama/pull/3753) | fix(offset): avoid deadlock when closing during a blocked commit |
 | [anchore/syft](https://github.com/anchore/syft) | 9.6k | [#5121](https://github.com/anchore/syft/pull/5121) | fix(binary): match istio snapshot and older pre-release versions |
