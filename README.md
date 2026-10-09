@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**51 merged pull requests** (1 later reverted) across **24 upstream projects** totalling **286.3k stars** · **24** in review
+**51 merged pull requests** (1 later reverted) across **24 upstream projects** totalling **286.7k stars** · **25** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -46,7 +46,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.4k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 44.5k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 44.8k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.3k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.3k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.3k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -89,9 +89,10 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 77.5k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 77.5k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: Support third-party http.authentication.hashes modules |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 77.6k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 77.6k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: Support third-party http.authentication.hashes modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.6k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.4k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.4k | [#6196](https://github.com/bluenviron/mediamtx/pull/6196) | add udpWriteBufferSize parameter (#6100) |
