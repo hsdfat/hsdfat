@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**56 merged pull requests** (1 later reverted) across **28 upstream projects** totalling **334.9k stars** · **20** in review
+**56 merged pull requests** (1 later reverted) across **28 upstream projects** totalling **335.1k stars** · **20** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -47,7 +47,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.5k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.5k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.6k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48.1k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.7k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.7k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.7k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -74,8 +74,8 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [algesten/str0m](https://github.com/algesten/str0m) | 639 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 566 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 566 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 362 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 362 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 363 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 363 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 316 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 297 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#337](https://github.com/nickvsnetworking/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
