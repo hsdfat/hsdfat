@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**56 merged pull requests** (1 later reverted) across **28 upstream projects** totalling **335.4k stars** · **19** in review
+**56 merged pull requests** (1 later reverted) across **28 upstream projects** totalling **335.5k stars** · **19** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -47,7 +47,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.5k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.5k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.7k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48.2k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48.3k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.7k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.7k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.7k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -101,14 +101,14 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.5k | [#6196](https://github.com/bluenviron/mediamtx/pull/6196) | add udpWriteBufferSize parameter (#6100) |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17.1k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read resource once for outputs (fixes #5658) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3753](https://github.com/IBM/sarama/pull/3753) | fix(offset): avoid deadlock when closing during a blocked commit |
-| [anchore/syft](https://github.com/anchore/syft) | 9.7k | [#5121](https://github.com/anchore/syft/pull/5121) | fix(binary): match istio snapshot and older pre-release versions |
+| [anchore/syft](https://github.com/anchore/syft) | 9.8k | [#5121](https://github.com/anchore/syft/pull/5121) | fix(binary): match istio snapshot and older pre-release versions |
 | [redpanda-data/connect](https://github.com/redpanda-data/connect) | 8.8k | [#4656](https://github.com/redpanda-data/connect/pull/4656) | slack: only enforce token prefixes on literal values |
 | [apache/iceberg-rust](https://github.com/apache/iceberg-rust) | 1.4k | [#3284](https://github.com/apache/iceberg-rust/pull/3284) | fix(spec): accept object-form partition-spec in manifest metadata |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 943 | [#1178](https://github.com/bluenviron/gortsplib/pull/1178) | format: support mismatched fmtp payload type |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 943 | [#1181](https://github.com/bluenviron/gortsplib/pull/1181) | client: support SETUP responses without Transport header |
 | [pion/stun](https://github.com/pion/stun) | 864 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
 | [asticode/go-astits](https://github.com/asticode/go-astits) | 618 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
-| [pion/rtp](https://github.com/pion/rtp) | 477 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
+| [pion/rtp](https://github.com/pion/rtp) | 478 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
 | [pion/interceptor](https://github.com/pion/interceptor) | 148 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
 | [nickvsnetworking/pyhss](https://github.com/nickvsnetworking/pyhss) | 115 | [#338](https://github.com/nickvsnetworking/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 104 | [#380](https://github.com/bluenviron/mediacommon/pull/380) | mpegts: fix reading UDP datagrams larger than 1316 bytes |
