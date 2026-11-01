@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**61 merged pull requests** (1 later reverted) across **29 upstream projects** totalling **346.7k stars** · **33** in review
+**62 merged pull requests** (1 later reverted) across **30 upstream projects** totalling **425.3k stars** · **32** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -33,6 +33,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.6k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
@@ -49,14 +50,14 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.8k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.2k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.8k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.8k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.8k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.8k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.8k | [#11398](https://github.com/seaweedfs/seaweedfs/pull/11398) | fix(volume): stop ScanVolumeFileFrom at a header it cannot advance past |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.8k | [#11399](https://github.com/seaweedfs/seaweedfs/pull/11399) | fix(volume): validate sizes in ReadNeedleBlob and WriteNeedleBlob |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.8k | [#11483](https://github.com/seaweedfs/seaweedfs/pull/11483) | fix(volume-rust): reserve a disk before replacing a replica in VolumeCo… |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.8k | [#12269](https://github.com/seaweedfs/seaweedfs/pull/12269) | fix(volume): reject a negative suffix length in Range headers |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.8k | [#12270](https://github.com/seaweedfs/seaweedfs/pull/12270) | fix(s3): reject non-integer max-parts, part-number-marker and max-uploa… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#11398](https://github.com/seaweedfs/seaweedfs/pull/11398) | fix(volume): stop ScanVolumeFileFrom at a header it cannot advance past |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#11399](https://github.com/seaweedfs/seaweedfs/pull/11399) | fix(volume): validate sizes in ReadNeedleBlob and WriteNeedleBlob |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#11483](https://github.com/seaweedfs/seaweedfs/pull/11483) | fix(volume-rust): reserve a disk before replacing a replica in VolumeCo… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#12269](https://github.com/seaweedfs/seaweedfs/pull/12269) | fix(volume): reject a negative suffix length in Range headers |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#12270](https://github.com/seaweedfs/seaweedfs/pull/12270) | fix(s3): reject non-integer max-parts, part-number-marker and max-uploa… |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3752](https://github.com/IBM/sarama/pull/3752) | fix(client): only deregister the broker registered under that ID |
@@ -100,7 +101,6 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.6k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.6k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: Support third-party http.authentication.hashes modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
