@@ -155,7 +155,8 @@ def main():
     block = build()
     new = re.sub(
         re.escape(START) + r".*?" + re.escape(END),
-        f"{START}\n\n{block}\n\n{END}",
+        # A function replacement, so backslashes in PR titles stay literal.
+        lambda _: f"{START}\n\n{block}\n\n{END}",
         readme,
         flags=re.DOTALL,
     )
