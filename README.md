@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**64 merged pull requests** (1 later reverted) across **30 upstream projects** totalling **425.5k stars** · **29** in review
+**66 merged pull requests** (1 later reverted) across **31 upstream projects** totalling **442.8k stars** · **27** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -33,20 +33,20 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.6k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.7k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.8k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.3k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.8k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
@@ -60,7 +60,9 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#12270](https://github.com/seaweedfs/seaweedfs/pull/12270) | fix(s3): reject non-integer max-parts, part-number-marker and max-uploa… |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
+| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17.1k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read resource once for outputs (fixes #5658) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3752](https://github.com/IBM/sarama/pull/3752) | fix(client): only deregister the broker registered under that ID |
+| [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3852](https://github.com/IBM/sarama/pull/3852) | fix(protocol): don't send an unclean election as ElectLeaders v0 |
 | [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) | 12.1k | [#1956](https://github.com/kubeshark/kubeshark/pull/1956) | helm: use Recreate strategy for hub Deployment when local snapshots PVC… |
 | [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11.9k | [#2143](https://github.com/shirou/gopsutil/pull/2143) | [docker][linux]: support cgroup v2 in Cgroup* functions |
 | [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11.9k | [#2163](https://github.com/shirou/gopsutil/pull/2163) | [cpu][darwin]: don't crash in getFrequency when pmgr lacks voltage-stat… |
@@ -81,7 +83,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 570 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 366 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 366 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
-| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 319 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
+| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 298 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 298 | [#276](https://github.com/fiorix/go-diameter/pull/276) | diam: keep only the P flag of the request in Answer |
 | [pyhss/pyhss](https://github.com/pyhss/pyhss) | 115 | [#337](https://github.com/pyhss/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
@@ -102,15 +104,13 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.6k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.7k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.7k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.6k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
-| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17.1k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read resource once for outputs (fixes #5658) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3753](https://github.com/IBM/sarama/pull/3753) | fix(offset): avoid deadlock when closing during a blocked commit |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3851](https://github.com/IBM/sarama/pull/3851) | fix(protocol): decode compressed batches with more records than bytes |
-| [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3852](https://github.com/IBM/sarama/pull/3852) | fix(protocol): don't send an unclean election as ElectLeaders v0 |
 | [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11.9k | [#2190](https://github.com/shirou/gopsutil/pull/2190) | [disk][linux]: decode only \ooo escapes in mount points |
 | [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11.9k | [#2191](https://github.com/shirou/gopsutil/pull/2191) | [net][linux]: fix IPv6 address decoding on big-endian hosts |
 | [redpanda-data/connect](https://github.com/redpanda-data/connect) | 8.8k | [#4656](https://github.com/redpanda-data/connect/pull/4656) | slack: only enforce token prefixes on literal values |
