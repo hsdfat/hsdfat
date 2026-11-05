@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**68 merged pull requests** (1 later reverted) across **31 upstream projects** totalling **443k stars** · **25** in review
+**69 merged pull requests** (1 later reverted) across **31 upstream projects** totalling **443.3k stars** · **25** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -33,7 +33,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.7k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.8k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
@@ -47,8 +47,9 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.9k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.4k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.5k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.8k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -80,15 +81,15 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1225](https://github.com/vishvananda/netlink/pull/1225) | filter: use EncDestIPMask when encoding Flower EncDestIP |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 944 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
-| [algesten/str0m](https://github.com/algesten/str0m) | 648 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
+| [algesten/str0m](https://github.com/algesten/str0m) | 647 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 570 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 570 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 366 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
-| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 366 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 367 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
+| [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 367 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 298 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 298 | [#276](https://github.com/fiorix/go-diameter/pull/276) | diam: keep only the P flag of the request in Answer |
-| [pyhss/pyhss](https://github.com/pyhss/pyhss) | 115 | [#337](https://github.com/pyhss/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
+| [pyhss/pyhss](https://github.com/pyhss/pyhss) | 114 | [#337](https://github.com/pyhss/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#375](https://github.com/bluenviron/mediacommon/pull/375) | pmp4: support tracks without edts |
@@ -106,11 +107,11 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.7k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.8k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.6k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
+| [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.6k | [#6447](https://github.com/bluenviron/mediamtx/pull/6447) | playback: limit parallel segment reads in /list (#6446) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3753](https://github.com/IBM/sarama/pull/3753) | fix(offset): avoid deadlock when closing during a blocked commit |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3851](https://github.com/IBM/sarama/pull/3851) | fix(protocol): decode compressed batches with more records than bytes |
 | [shirou/gopsutil](https://github.com/shirou/gopsutil) | 11.9k | [#2190](https://github.com/shirou/gopsutil/pull/2190) | [disk][linux]: decode only \ooo escapes in mount points |
@@ -129,7 +130,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [pion/rtp](https://github.com/pion/rtp) | 479 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 298 | [#275](https://github.com/fiorix/go-diameter/pull/275) | diam: match the Vendor-Id in FindAVP, FindAVPs and FindAVPsWithPath |
 | [pion/interceptor](https://github.com/pion/interceptor) | 149 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
-| [pyhss/pyhss](https://github.com/pyhss/pyhss) | 115 | [#338](https://github.com/pyhss/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
+| [pyhss/pyhss](https://github.com/pyhss/pyhss) | 114 | [#338](https://github.com/pyhss/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
 | [free5gc/smf](https://github.com/free5gc/smf) | 26 | [#244](https://github.com/free5gc/smf/pull/244) | fix: release SMContext and reject when UDM token fetch fails |
 
 </details>
