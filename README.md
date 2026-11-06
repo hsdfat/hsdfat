@@ -24,7 +24,7 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:START -->
 
-**69 merged pull requests** (1 later reverted) across **31 upstream projects** totalling **443.3k stars** · **25** in review
+**70 merged pull requests** (1 later reverted) across **31 upstream projects** totalling **443.5k stars** · **24** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -47,9 +47,10 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 58.9k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.5k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.6k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 40.8k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 35.9k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -109,7 +110,6 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 |---|---:|---|---|
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.8k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.8k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.6k | [#6195](https://github.com/bluenviron/mediamtx/pull/6195) | playback: cache segment headers to speed up /list (#5094) |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.6k | [#6447](https://github.com/bluenviron/mediamtx/pull/6447) | playback: limit parallel segment reads in /list (#6446) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3753](https://github.com/IBM/sarama/pull/3753) | fix(offset): avoid deadlock when closing during a blocked commit |
