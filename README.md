@@ -1,26 +1,10 @@
-## Hi, I'm hsdfat 👋
+# Phat Le (hsdfat)
 
-Go engineer building **telecom core networks** and the cloud-native systems
-around them. I work primarily on 5G/EPC network functions, then take the
-production problems I find upstream to the Go and Kubernetes ecosystem.
+Go engineer working on telecom core networks (5G core and EPC) and the
+Kubernetes systems around them. I build network functions for a living and
+send the production bugs I hit upstream.
 
-### Focus
-
-- 5G Core, EPC interworking, Diameter, SBI, HTTP/2, and NETCONF
-- Go services on Kubernetes, with Helm-based delivery and end-to-end testing
-- Storage, observability, and performance work that makes production systems
-  safer under load
-
-### Current work — `udm-system`
-
-A Go monorepo for a combined 5GC + EPC stack: UDM, AUSF, UDR, HSS, EIR,
-Diameter and HTTP/2 gateways, provisioning, and the test and profiling tools
-needed to operate them.
-
-### Open source
-
-I contribute production-driven fixes to the infrastructure I use: Kubernetes
-tooling, storage, media, observability, stream processing, and 5G projects.
+## Upstream contributions
 
 <!-- OSS-STATS:START -->
 
@@ -170,11 +154,46 @@ tooling, storage, media, observability, stream processing, and 5G projects.
 
 <!-- OSS-STATS:END -->
 
-<sub>Regenerated nightly from the GitHub API by
-[`scripts/build_stats.py`](scripts/build_stats.py). Own and private repositories
-are excluded, so every row is a public upstream contribution.</sub>
+### Selected fixes
 
-### Tech
+Hand-picked from the list above: fixes that stopped data loss, crashes, or
+security problems in software a lot of people run.
 
-`Go` · `Kubernetes` · `Helm` · `Docker` · `gRPC / protobuf` · `Diameter` ·
-`HTTP/2 · SBI` · `NETCONF` · `distributed SQL` · `observability`
+| Project | Fix |
+|---|---|
+| [gitea #38693](https://github.com/go-gitea/gitea/pull/38693) | LFS: a failed upload no longer deletes a concurrent upload's metadata |
+| [velero #10212](https://github.com/velero-io/velero/pull/10212) | Zip Slip check accepted a sibling directory during archive extraction |
+| [rclone #9947](https://github.com/rclone/rclone/pull/9947) | `--copy-links` no longer follows symlink loops |
+| [seaweedfs #11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | Volume server returns an error instead of panicking on a corrupt needle |
+| [sarama #3752](https://github.com/IBM/sarama/pull/3752) | Client only deregisters the broker registered under that ID |
+| [argo-workflows #16602](https://github.com/argoproj/argo-workflows/pull/16602) | Executor reads the resource once when collecting outputs |
+| [woodpecker #7192](https://github.com/woodpecker-ci/woodpecker/pull/7192) | Race on concurrent pipeline config persist |
+| [gopsutil #2143](https://github.com/shirou/gopsutil/pull/2143) | cgroup v2 support in the `Cgroup*` functions |
+| [webrtc-rs #954](https://github.com/webrtc-rs/webrtc/pull/954) | STUN Binding requests used an all-zero transaction ID |
+
+## Projects
+
+| Repository | What it is |
+|---|---|
+| [diam-gw](https://github.com/hsdfat/diam-gw) | Diameter gateway: client library and code generator, with CI and a performance budget |
+| [go-eir](https://github.com/hsdfat/go-eir) | Equipment Identity Register (EIR) in Go, hexagonal architecture |
+| [gohss](https://github.com/hsdfat/gohss) | HSS with S6a, Cx and Sh interfaces |
+| [telco](https://github.com/hsdfat/telco) | Shared telecom utilities: 3GPP types, encoders, and test helpers |
+| [go-project-dump](https://github.com/hsdfat/go-project-dump) | Dump a Go project into a single reviewable document |
+| [go-auth-middleware](https://github.com/hsdfat/go-auth-middleware) | JWT authentication and role-based authorization middleware for Gin |
+
+The combined 5GC + EPC stack I work on day to day (UDM, AUSF, UDR, HSS, EIR,
+Diameter and HTTP/2 gateways) is private. The free5gc, go-diameter and PyHSS
+fixes above come out of it.
+
+## Focus
+
+- 5G core and EPC interworking: SBI over HTTP/2, Diameter, NETCONF
+- Go services on Kubernetes, delivered with Helm and end-to-end tests
+- Storage, media and observability code paths that have to stay up under load
+
+`Go` · `Rust` · `Kubernetes` · `Helm` · `gRPC` · `Diameter` · `HTTP/2` · `NETCONF` · `PostgreSQL` · `ClickHouse`
+
+<sub>The contribution block is regenerated nightly by
+[`scripts/build_stats.py`](scripts/build_stats.py); own and private
+repositories are excluded, so every row is a public upstream pull request.</sub>
