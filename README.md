@@ -161,17 +161,14 @@ security problems in software a lot of people run.
 
 | Project | Fix |
 |---|---|
-| [webrtc-rs #954](https://github.com/webrtc-rs/webrtc/pull/954) | ICE used a predictable STUN transaction ID; Binding requests now get a random one |
+| [webrtc-rs #954](https://github.com/webrtc-rs/webrtc/pull/954) | Every STUN Binding request went out with the all-zero transaction ID; now random per RFC 8489 |
 | [mediacommon #377](https://github.com/bluenviron/mediacommon/pull/377) | MP4 export wrapped the duration of tracks longer than 2^32 ticks (about 13 h), so players stopped early |
 | [gitea #38693](https://github.com/go-gitea/gitea/pull/38693) | LFS: a failed upload no longer deletes a concurrent upload's metadata |
 | [velero #10212](https://github.com/velero-io/velero/pull/10212) | Zip Slip check accepted a sibling directory during archive extraction |
 | [rclone #9947](https://github.com/rclone/rclone/pull/9947) | `--copy-links` no longer follows symlink loops |
 | [seaweedfs #11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | Volume server returns an error instead of panicking on a corrupt needle |
 | [sarama #3752](https://github.com/IBM/sarama/pull/3752) | Client only deregisters the broker registered under that ID |
-| [argo-workflows #16602](https://github.com/argoproj/argo-workflows/pull/16602) | Executor reads the resource once when collecting outputs |
 | [woodpecker #7192](https://github.com/woodpecker-ci/woodpecker/pull/7192) | Race on concurrent pipeline config persist |
-| [gopsutil #2143](https://github.com/shirou/gopsutil/pull/2143) | cgroup v2 support in the `Cgroup*` functions |
-| [webrtc-rs #954](https://github.com/webrtc-rs/webrtc/pull/954) | STUN Binding requests used an all-zero transaction ID |
 
 ## Projects
 
@@ -184,17 +181,16 @@ security problems in software a lot of people run.
 | [go-project-dump](https://github.com/hsdfat/go-project-dump) | Dump a Go project into a single reviewable document |
 | [go-auth-middleware](https://github.com/hsdfat/go-auth-middleware) | JWT authentication and role-based authorization middleware for Gin |
 
-The combined 5GC + EPC stack I work on day to day (UDM, AUSF, UDR, HSS, EIR,
-Diameter and HTTP/2 gateways) is private. The free5gc, go-diameter and PyHSS
-fixes above come out of it.
+The 5GC + EPC stack these grew out of (UDM, AUSF, UDR, HSS, EIR) is private;
+the free5gc, go-diameter and PyHSS fixes above came from it.
 
 ## Focus
 
-- 5G core and EPC interworking: SBI over HTTP/2, Diameter, NETCONF
-- Go services on Kubernetes, delivered with Helm and end-to-end tests
-- Storage, media and observability code paths that have to stay up under load
+- Real-time media: WebRTC and ICE, RTSP, HLS, RTP/RTCP, and the MP4 and codec parsers that have to survive bad input
+- Go and Rust services on Kubernetes, delivered with Helm and end-to-end tests
+- 5G core and EPC interworking: SBI over HTTP/2 and Diameter
 
-`Go` · `Rust` · `Kubernetes` · `Helm` · `gRPC` · `Diameter` · `HTTP/2` · `NETCONF` · `PostgreSQL` · `ClickHouse`
+`Go` · `Rust` · `WebRTC` · `RTP` · `RTSP` · `HLS` · `Kubernetes` · `gRPC` · `HTTP/2` · `Diameter` · `PostgreSQL` · `ClickHouse`
 
 <sub>The contribution block is regenerated nightly by
 [`scripts/build_stats.py`](scripts/build_stats.py); own and private
