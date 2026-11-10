@@ -185,6 +185,11 @@ security problems in software a lot of people run.
 The 5GC + EPC stack these grew out of (UDM, AUSF, UDR, HSS, EIR) is private;
 the free5gc, go-diameter and PyHSS fixes above came from it.
 
+## Elsewhere
+
+- Lead inventor on [US 12,621,367 B2](https://patents.google.com/patent/US12621367B2/en): session persistence for stateful microservices, a proxy/worker split with a session-ID affinity table, applied to a 5G SMF.
+- [LinkedIn](https://www.linkedin.com/in/ph%C3%A1t-l%C3%AA-743a3b174/)
+
 ## Focus
 
 - Real-time media: WebRTC and ICE, RTSP, HLS, RTP/RTCP, and the MP4 and codec parsers that have to survive bad input
