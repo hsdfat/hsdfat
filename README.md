@@ -1,8 +1,8 @@
 # Phat Le (hsdfat)
 
-Go engineer working on telecom core networks (5G core and EPC) and the
-Kubernetes systems around them. I build network functions for a living and
-send the production bugs I hit upstream.
+Go and Rust engineer working on real-time media: WebRTC, RTSP, HLS and the
+RTP plumbing underneath, after several years building 5G core network
+functions. I send the production bugs I hit upstream.
 
 ## Upstream contributions
 
@@ -161,6 +161,8 @@ security problems in software a lot of people run.
 
 | Project | Fix |
 |---|---|
+| [webrtc-rs #954](https://github.com/webrtc-rs/webrtc/pull/954) | ICE used a predictable STUN transaction ID; Binding requests now get a random one |
+| [mediacommon #377](https://github.com/bluenviron/mediacommon/pull/377) | MP4 export wrapped the duration of tracks longer than 2^32 ticks (about 13 h), so players stopped early |
 | [gitea #38693](https://github.com/go-gitea/gitea/pull/38693) | LFS: a failed upload no longer deletes a concurrent upload's metadata |
 | [velero #10212](https://github.com/velero-io/velero/pull/10212) | Zip Slip check accepted a sibling directory during archive extraction |
 | [rclone #9947](https://github.com/rclone/rclone/pull/9947) | `--copy-links` no longer follows symlink loops |
