@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**79 merged pull requests** (1 later reverted) across **34 upstream projects** totalling **453.3k stars** · **48** in review
+**81 merged pull requests** (1 later reverted) across **36 upstream projects** totalling **457.8k stars** · **46** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -17,7 +17,7 @@ functions. I send the production bugs I hit upstream.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.9k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.9k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.9k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.9k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
@@ -71,12 +71,14 @@ functions. I send the production bugs I hit upstream.
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#12108](https://github.com/apache/arrow-rs/pull/12108) | fix(parquet): return error on negative DELTA_BYTE_ARRAY lengths in arro… |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1225](https://github.com/vishvananda/netlink/pull/1225) | filter: use EncDestIPMask when encoding Flower EncDestIP |
 | [xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc) | 3.3k | [#1501](https://github.com/xerial/sqlite-jdbc/pull/1501) | feat: redact encryption key pragmas in trace logs |
+| [pjsip/pjproject](https://github.com/pjsip/pjproject) | 2.7k | [#5384](https://github.com/pjsip/pjproject/pull/5384) | pjsua: make the maximum number of transports configurable |
+| [hyperium/h2](https://github.com/hyperium/h2) | 1.6k | [#1002](https://github.com/hyperium/h2/pull/1002) | fix: requeue released credit on recv window shrink |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
-| [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 944 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
-| [algesten/str0m](https://github.com/algesten/str0m) | 652 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
+| [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 946 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
+| [algesten/str0m](https://github.com/algesten/str0m) | 653 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
-| [jonas-grgt/ktea](https://github.com/jonas-grgt/ktea) | 445 | [#179](https://github.com/jonas-grgt/ktea/pull/179) | feat: allow configuring the debug log location with --debug=PATH |
+| [jonas-grgt/ktea](https://github.com/jonas-grgt/ktea) | 446 | [#179](https://github.com/jonas-grgt/ktea/pull/179) | feat: allow configuring the debug log location with --debug=PATH |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 368 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 368 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
@@ -101,7 +103,7 @@ functions. I send the production bugs I hit upstream.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 78.9k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.9k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.9k | [#10271](https://github.com/rclone/rclone/pull/10271) | fs: add --max-errors flag - fixes #4670 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.9k | [#10279](https://github.com/rclone/rclone/pull/10279) | ls, lsl, lsd, lsf, lsjson: add --output-file flag - fixes #8358 |
@@ -127,20 +129,18 @@ functions. I send the production bugs I hit upstream.
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3.5k | [#611](https://github.com/pdeljanov/Symphonia/pull/611) | ogg: Set packet DTS equal to PTS. |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1237](https://github.com/vishvananda/netlink/pull/1237) | netkit: add PeerAttrs getter |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1238](https://github.com/vishvananda/netlink/pull/1238) | Close subscribe sockets when the receive goroutine exits |
-| [pjsip/pjproject](https://github.com/pjsip/pjproject) | 2.7k | [#5384](https://github.com/pjsip/pjproject/pull/5384) | pjsua: make the maximum number of transports configurable |
 | [obi1kenobi/cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks) | 1.7k | [#1797](https://github.com/obi1kenobi/cargo-semver-checks/pull/1797) | Add exported_function_now_variadic and exported_function_no_longer_vari… |
-| [hyperium/h2](https://github.com/hyperium/h2) | 1.6k | [#1002](https://github.com/hyperium/h2/pull/1002) | fix: requeue released credit on recv window shrink |
 | [apache/iceberg-rust](https://github.com/apache/iceberg-rust) | 1.4k | [#3645](https://github.com/apache/iceberg-rust/pull/3645) | fix(transform): avoid overflow in adjust_boundary at type extremes |
-| [pion/stun](https://github.com/pion/stun) | 864 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
-| [JFryy/qq](https://github.com/JFryy/qq) | 740 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
-| [algesten/str0m](https://github.com/algesten/str0m) | 652 | [#1128](https://github.com/algesten/str0m/pull/1128) | Allow setting msid via DirectApi |
-| [algesten/str0m](https://github.com/algesten/str0m) | 652 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
-| [asticode/go-astits](https://github.com/asticode/go-astits) | 617 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
+| [pion/stun](https://github.com/pion/stun) | 865 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
+| [JFryy/qq](https://github.com/JFryy/qq) | 741 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
+| [algesten/str0m](https://github.com/algesten/str0m) | 653 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
+| [algesten/str0m](https://github.com/algesten/str0m) | 653 | [#1142](https://github.com/algesten/str0m/pull/1142) | Keep ~ in sanitised msid ids |
+| [asticode/go-astits](https://github.com/asticode/go-astits) | 618 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#511](https://github.com/ClickHouse/clickhouse-rs/pull/511) | feat(serde): add `::vec` helpers for temporal types |
-| [flock-php/flock](https://github.com/flock-php/flock) | 517 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
-| [pion/rtp](https://github.com/pion/rtp) | 478 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
+| [flock-php/flock](https://github.com/flock-php/flock) | 528 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
+| [pion/rtp](https://github.com/pion/rtp) | 480 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#177](https://github.com/gopacket/gopacket/pull/177) | packet: copy zero copy data on the Packets channel path |
 | [webrtc-rs/rtc](https://github.com/webrtc-rs/rtc) | 167 | [#314](https://github.com/webrtc-rs/rtc/pull/314) | fix(rtc): count incoming RTCP in get_stats() |
 | [webrtc-rs/rtc](https://github.com/webrtc-rs/rtc) | 167 | [#315](https://github.com/webrtc-rs/rtc/pull/315) | fix(ice): answer USE-CANDIDATE checks without ICE-CONTROLLING on the co… |
