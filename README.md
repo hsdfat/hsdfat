@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**84 merged pull requests** (1 later reverted) across **37 upstream projects** totalling **458.1k stars** · **43** in review
+**85 merged pull requests** (1 later reverted) across **37 upstream projects** totalling **458.4k stars** · **52** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -33,8 +33,8 @@ functions. I send the production bugs I hit upstream.
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 49.9k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59.1k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 50.1k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 41k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -69,12 +69,13 @@ functions. I send the production bugs I hit upstream.
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#12007](https://github.com/apache/arrow-rs/pull/12007) | fix(arrow-json): reject out-of-range float timestamps instead of satura… |
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#12102](https://github.com/apache/arrow-rs/pull/12102) | fix(arrow-cast): write timestamps whose zone offset has seconds in UTC |
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#12108](https://github.com/apache/arrow-rs/pull/12108) | fix(parquet): return error on negative DELTA_BYTE_ARRAY lengths in arro… |
+| [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#12215](https://github.com/apache/arrow-rs/pull/12215) | fix(parquet): check PLAIN byte array end offsets for overflow in read |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1225](https://github.com/vishvananda/netlink/pull/1225) | filter: use EncDestIPMask when encoding Flower EncDestIP |
 | [xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc) | 3.3k | [#1501](https://github.com/xerial/sqlite-jdbc/pull/1501) | feat: redact encryption key pragmas in trace logs |
 | [pjsip/pjproject](https://github.com/pjsip/pjproject) | 2.7k | [#5384](https://github.com/pjsip/pjproject/pull/5384) | pjsua: make the maximum number of transports configurable |
 | [hyperium/h2](https://github.com/hyperium/h2) | 1.6k | [#1002](https://github.com/hyperium/h2/pull/1002) | fix: requeue released credit on recv window shrink |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
-| [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 946 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
+| [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 948 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
 | [algesten/str0m](https://github.com/algesten/str0m) | 654 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
@@ -111,6 +112,7 @@ functions. I send the production bugs I hit upstream.
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10271](https://github.com/rclone/rclone/pull/10271) | fs: add --max-errors flag - fixes #4670 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10279](https://github.com/rclone/rclone/pull/10279) | ls, lsl, lsd, lsf, lsjson: add --output-file flag - fixes #8358 |
 | [wagoodman/dive](https://github.com/wagoodman/dive) | 54.7k | [#735](https://github.com/wagoodman/dive/pull/735) | fix: drop lower dir contents when a layer replaces the dir with a symli… |
+| [pingcap/tidb](https://github.com/pingcap/tidb) | 40.7k | [#73089](https://github.com/pingcap/tidb/pull/73089) | server: reject malformed packets instead of panicking or stalling |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.7k | [#6447](https://github.com/bluenviron/mediamtx/pull/6447) | playback: limit parallel segment reads in /list (#6446) |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20081](https://github.com/influxdata/telegraf/pull/20081) | feat(inputs.statsd): Add unixgram support |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20085](https://github.com/influxdata/telegraf/pull/20085) | feat(inputs.jenkins): Add option to add build display name and descript… |
@@ -125,15 +127,22 @@ functions. I send the production bugs I hit upstream.
 | [webrtc-rs/webrtc](https://github.com/webrtc-rs/webrtc) | 5.2k | [#955](https://github.com/webrtc-rs/webrtc/pull/955) | fix(ice): dial passive ICE-TCP candidates carried in the remote SDP |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1466](https://github.com/uptrace/bun/pull/1466) | fix: require primary keys for bulk UpdateQuery |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1467](https://github.com/uptrace/bun/pull/1467) | fix(pgdialect): scan int64 and float64 range bounds instead of panicking |
-| [prometheus-community/postgres_exporter](https://github.com/prometheus-community/postgres_exporter) | 3.6k | [#1443](https://github.com/prometheus-community/postgres_exporter/pull/1443) | stat_wal_receiver: export metrics when replicating without a slot |
+| [linebender/resvg](https://github.com/linebender/resvg) | 4.2k | [#1234](https://github.com/linebender/resvg/pull/1234) | Fix integer overflows in feTurbulence |
+| [version-fox/vfox](https://github.com/version-fox/vfox) | 4k | [#757](https://github.com/version-fox/vfox/pull/757) | fix(http): send the vfox User-Agent with vfox's own requests |
+| [prometheus-community/postgres_exporter](https://github.com/prometheus-community/postgres_exporter) | 3.7k | [#1443](https://github.com/prometheus-community/postgres_exporter/pull/1443) | stat_wal_receiver: export metrics when replicating without a slot |
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3.5k | [#608](https://github.com/pdeljanov/Symphonia/pull/608) | isomp4: Fix integer overflow in stts sample lookups. |
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3.5k | [#609](https://github.com/pdeljanov/Symphonia/pull/609) | isomp4: Return an error instead of underflowing in MoofSegment sample l… |
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3.5k | [#610](https://github.com/pdeljanov/Symphonia/pull/610) | isomp4: Return an error for a trun data offset outside the stream. |
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3.5k | [#611](https://github.com/pdeljanov/Symphonia/pull/611) | ogg: Set packet DTS equal to PTS. |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1237](https://github.com/vishvananda/netlink/pull/1237) | netkit: add PeerAttrs getter |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1238](https://github.com/vishvananda/netlink/pull/1238) | Close subscribe sockets when the receive goroutine exits |
+| [tafia/calamine](https://github.com/tafia/calamine) | 2.5k | [#800](https://github.com/tafia/calamine/pull/800) | xlsb: return an error on unchecked indexes in malformed files |
+| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1.8k | [#5928](https://github.com/open-telemetry/opentelemetry-operator/pull/5928) | Update the Ingress class name on an existing Ingress |
+| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1.8k | [#5929](https://github.com/open-telemetry/opentelemetry-operator/pull/5929) | Apply the image pull policy to Java extension init containers |
+| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1.8k | [#5930](https://github.com/open-telemetry/opentelemetry-operator/pull/5930) | Apply the revision history limit to the collector DaemonSet |
 | [obi1kenobi/cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks) | 1.7k | [#1797](https://github.com/obi1kenobi/cargo-semver-checks/pull/1797) | Add exported_function_now_variadic and exported_function_no_longer_vari… |
 | [apache/iceberg-rust](https://github.com/apache/iceberg-rust) | 1.4k | [#3645](https://github.com/apache/iceberg-rust/pull/3645) | fix(transform): avoid overflow in adjust_boundary at type extremes |
+| [prometheus/statsd_exporter](https://github.com/prometheus/statsd_exporter) | 990 | [#769](https://github.com/prometheus/statsd_exporter/pull/769) | Add a gauge for the number of active metric vectors |
 | [pion/stun](https://github.com/pion/stun) | 866 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
 | [JFryy/qq](https://github.com/JFryy/qq) | 740 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
 | [algesten/str0m](https://github.com/algesten/str0m) | 654 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
@@ -142,8 +151,9 @@ functions. I send the production bugs I hit upstream.
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#511](https://github.com/ClickHouse/clickhouse-rs/pull/511) | feat(serde): add `::vec` helpers for temporal types |
-| [flock-php/flock](https://github.com/flock-php/flock) | 539 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
+| [flock-php/flock](https://github.com/flock-php/flock) | 555 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
 | [pion/rtp](https://github.com/pion/rtp) | 480 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
+| [tikv/client-go](https://github.com/tikv/client-go) | 364 | [#2171](https://github.com/tikv/client-go/pull/2171) | metrics: give each backoff config its own histogram label |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#177](https://github.com/gopacket/gopacket/pull/177) | packet: copy zero copy data on the Packets channel path |
 | [webrtc-rs/rtc](https://github.com/webrtc-rs/rtc) | 169 | [#316](https://github.com/webrtc-rs/rtc/pull/316) | fix(turn): track client permissions per peer IP, not per IP and port |
 | [pion/interceptor](https://github.com/pion/interceptor) | 149 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
@@ -175,7 +185,7 @@ security problems in software a lot of people run.
 
 | Repository | What it is |
 |---|---|
-| [go-diam](https://github.com/hsdfat/go-diam) | Typed, code-generated Diameter codecs for Go. proto3 in, plain structs with `Marshal`/`Unmarshal`/`Validate` out, no runtime dictionary. Pre-release: base protocol (RFC 6733), S6a/S6d and Cx/Dx so far, fuzzed and checked byte-for-byte against go-diameter |
+| [go-diam](https://github.com/hsdfat/go-diam) | Typed, code-generated Diameter codecs for Go. proto3 in, plain structs with `Marshal`/`Unmarshal`/`Validate` out, no runtime dictionary. Pre-release: base protocol (RFC 6733), S6a/S6d, Cx/Dx and Sh/Dh so far, fuzzed and checked byte-for-byte against go-diameter |
 | [diam-gw](https://github.com/hsdfat/diam-gw) | Diameter gateway: client library and code generator, with CI and a performance budget |
 | [go-eir](https://github.com/hsdfat/go-eir) | Equipment Identity Register (EIR) in Go, hexagonal architecture |
 | [gohss](https://github.com/hsdfat/gohss) | HSS with S6a, Cx and Sh interfaces |
