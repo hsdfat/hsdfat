@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**85 merged pull requests** (1 later reverted) across **37 upstream projects** totalling **458.4k stars** · **52** in review
+**86 merged pull requests** (1 later reverted) across **38 upstream projects** totalling **476.3k stars** · **51** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -46,6 +46,7 @@ functions. I send the production bugs I hit upstream.
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#12270](https://github.com/seaweedfs/seaweedfs/pull/12270) | fix(s3): reject non-integer max-parts, part-number-marker and max-uploa… |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
+| [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20085](https://github.com/influxdata/telegraf/pull/20085) | feat(inputs.jenkins): Allow adding build display name and description a… |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17.1k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read resource once for outputs (fixes #5658) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3752](https://github.com/IBM/sarama/pull/3752) | fix(client): only deregister the broker registered under that ID |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3852](https://github.com/IBM/sarama/pull/3852) | fix(protocol): don't send an unclean election as ElectLeaders v0 |
@@ -76,7 +77,7 @@ functions. I send the production bugs I hit upstream.
 | [hyperium/h2](https://github.com/hyperium/h2) | 1.6k | [#1002](https://github.com/hyperium/h2/pull/1002) | fix: requeue released credit on recv window shrink |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 948 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
-| [algesten/str0m](https://github.com/algesten/str0m) | 654 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
+| [algesten/str0m](https://github.com/algesten/str0m) | 655 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
 | [jonas-grgt/ktea](https://github.com/jonas-grgt/ktea) | 446 | [#179](https://github.com/jonas-grgt/ktea/pull/179) | feat: allow configuring the debug log location with --debug=PATH |
@@ -115,7 +116,6 @@ functions. I send the production bugs I hit upstream.
 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40.7k | [#73089](https://github.com/pingcap/tidb/pull/73089) | server: reject malformed packets instead of panicking or stalling |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.7k | [#6447](https://github.com/bluenviron/mediamtx/pull/6447) | playback: limit parallel segment reads in /list (#6446) |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20081](https://github.com/influxdata/telegraf/pull/20081) | feat(inputs.statsd): Add unixgram support |
-| [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20085](https://github.com/influxdata/telegraf/pull/20085) | feat(inputs.jenkins): Add option to add build display name and descript… |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20086](https://github.com/influxdata/telegraf/pull/20086) | feat(outputs.postgresql): Allow setting schema from a tag |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20087](https://github.com/influxdata/telegraf/pull/20087) | feat(logging): Add syslog as log format |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20088](https://github.com/influxdata/telegraf/pull/20088) | fix(common.opcua): Handle LocalizedText node values |
@@ -145,8 +145,8 @@ functions. I send the production bugs I hit upstream.
 | [prometheus/statsd_exporter](https://github.com/prometheus/statsd_exporter) | 990 | [#769](https://github.com/prometheus/statsd_exporter/pull/769) | Add a gauge for the number of active metric vectors |
 | [pion/stun](https://github.com/pion/stun) | 866 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
 | [JFryy/qq](https://github.com/JFryy/qq) | 740 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
-| [algesten/str0m](https://github.com/algesten/str0m) | 654 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
-| [algesten/str0m](https://github.com/algesten/str0m) | 654 | [#1142](https://github.com/algesten/str0m/pull/1142) | Keep ~ in sanitised msid ids |
+| [algesten/str0m](https://github.com/algesten/str0m) | 655 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
+| [algesten/str0m](https://github.com/algesten/str0m) | 655 | [#1142](https://github.com/algesten/str0m/pull/1142) | Keep ~ in sanitised msid ids |
 | [asticode/go-astits](https://github.com/asticode/go-astits) | 618 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
