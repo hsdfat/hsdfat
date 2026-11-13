@@ -163,6 +163,7 @@ security problems in software a lot of people run.
 |---|---|
 | [webrtc-rs #954](https://github.com/webrtc-rs/webrtc/pull/954) | Every STUN Binding request went out with the all-zero transaction ID; now random per RFC 8489 |
 | [mediacommon #377](https://github.com/bluenviron/mediacommon/pull/377) | MP4 export wrapped the duration of tracks longer than 2^32 ticks (about 13 h), so players stopped early |
+| [hyperium/h2 #1002](https://github.com/hyperium/h2/pull/1002) | HTTP/2 streams stalled after the receive window was lowered: released credit was never sent as a WINDOW_UPDATE |
 | [gitea #38693](https://github.com/go-gitea/gitea/pull/38693) | LFS: a failed upload no longer deletes a concurrent upload's metadata |
 | [velero #10212](https://github.com/velero-io/velero/pull/10212) | Zip Slip check accepted a sibling directory during archive extraction |
 | [rclone #9947](https://github.com/rclone/rclone/pull/9947) | `--copy-links` no longer follows symlink loops |
@@ -174,7 +175,7 @@ security problems in software a lot of people run.
 
 | Repository | What it is |
 |---|---|
-| [go-diam](https://github.com/hsdfat/go-diam) | In progress: typed, code-generated Diameter codecs for Go. proto3 in, plain structs with `Marshal`/`Unmarshal`/`Validate` out, no runtime dictionary |
+| [go-diam](https://github.com/hsdfat/go-diam) | Typed, code-generated Diameter codecs for Go. proto3 in, plain structs with `Marshal`/`Unmarshal`/`Validate` out, no runtime dictionary. Pre-release: base protocol (RFC 6733), S6a/S6d and Cx/Dx so far, fuzzed and checked byte-for-byte against go-diameter |
 | [diam-gw](https://github.com/hsdfat/diam-gw) | Diameter gateway: client library and code generator, with CI and a performance budget |
 | [go-eir](https://github.com/hsdfat/go-eir) | Equipment Identity Register (EIR) in Go, hexagonal architecture |
 | [gohss](https://github.com/hsdfat/gohss) | HSS with S6a, Cx and Sh interfaces |
