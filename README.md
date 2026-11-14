@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**87 merged pull requests** (1 later reverted) across **39 upstream projects** totalling **480.9k stars** · **50** in review
+**89 merged pull requests** (1 later reverted) across **39 upstream projects** totalling **481.1k stars** · **48** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -34,7 +34,7 @@ functions. I send the production bugs I hit upstream.
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59.1k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 50.7k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 50.8k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 41k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -65,6 +65,8 @@ functions. I send the production bugs I hit upstream.
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1414](https://github.com/uptrace/bun/pull/1414) | fix(bunotel): honor WithMeterProvider when reporting DB stats metrics |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1415](https://github.com/uptrace/bun/pull/1415) | fix(relation): do not duplicate joined models on a shared base model |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1435](https://github.com/uptrace/bun/pull/1435) | fix: resolve map column types before scanning rows |
+| [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1466](https://github.com/uptrace/bun/pull/1466) | fix: require primary keys for bulk UpdateQuery |
+| [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1467](https://github.com/uptrace/bun/pull/1467) | fix(pgdialect): scan int64 and float64 range bounds instead of panicking |
 | [version-fox/vfox](https://github.com/version-fox/vfox) | 4k | [#757](https://github.com/version-fox/vfox/pull/757) | fix(http): send the vfox User-Agent with vfox's own requests |
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#11229](https://github.com/apache/arrow-rs/pull/11229) | fix(parquet): support non-primitive map keys in record reader |
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#12006](https://github.com/apache/arrow-rs/pull/12006) | fix(arrow-string): saturate the length in Utf8View/BinaryView substring |
@@ -126,8 +128,6 @@ functions. I send the production bugs I hit upstream.
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3851](https://github.com/IBM/sarama/pull/3851) | fix(protocol): decode compressed batches with more records than bytes |
 | [redpanda-data/connect](https://github.com/redpanda-data/connect) | 8.8k | [#4656](https://github.com/redpanda-data/connect/pull/4656) | slack: only enforce token prefixes on literal values |
 | [webrtc-rs/webrtc](https://github.com/webrtc-rs/webrtc) | 5.2k | [#955](https://github.com/webrtc-rs/webrtc/pull/955) | fix(ice): dial passive ICE-TCP candidates carried in the remote SDP |
-| [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1466](https://github.com/uptrace/bun/pull/1466) | fix: require primary keys for bulk UpdateQuery |
-| [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1467](https://github.com/uptrace/bun/pull/1467) | fix(pgdialect): scan int64 and float64 range bounds instead of panicking |
 | [linebender/resvg](https://github.com/linebender/resvg) | 4.2k | [#1234](https://github.com/linebender/resvg/pull/1234) | Fix integer overflows in feTurbulence |
 | [prometheus-community/postgres_exporter](https://github.com/prometheus-community/postgres_exporter) | 3.7k | [#1443](https://github.com/prometheus-community/postgres_exporter/pull/1443) | stat_wal_receiver: export metrics when replicating without a slot |
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3.5k | [#608](https://github.com/pdeljanov/Symphonia/pull/608) | isomp4: Fix integer overflow in stts sample lookups. |
