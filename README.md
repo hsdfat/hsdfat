@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**86 merged pull requests** (1 later reverted) across **38 upstream projects** totalling **476.3k stars** · **51** in review
+**87 merged pull requests** (1 later reverted) across **39 upstream projects** totalling **480.9k stars** · **50** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -34,16 +34,16 @@ functions. I send the production bugs I hit upstream.
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59.1k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 50.1k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 50.7k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 41k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#11398](https://github.com/seaweedfs/seaweedfs/pull/11398) | fix(volume): stop ScanVolumeFileFrom at a header it cannot advance past |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#11399](https://github.com/seaweedfs/seaweedfs/pull/11399) | fix(volume): validate sizes in ReadNeedleBlob and WriteNeedleBlob |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#11483](https://github.com/seaweedfs/seaweedfs/pull/11483) | fix(volume-rust): reserve a disk before replacing a replica in VolumeCo… |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#12269](https://github.com/seaweedfs/seaweedfs/pull/12269) | fix(volume): reject a negative suffix length in Range headers |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36k | [#12270](https://github.com/seaweedfs/seaweedfs/pull/12270) | fix(s3): reject non-integer max-parts, part-number-marker and max-uploa… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11398](https://github.com/seaweedfs/seaweedfs/pull/11398) | fix(volume): stop ScanVolumeFileFrom at a header it cannot advance past |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11399](https://github.com/seaweedfs/seaweedfs/pull/11399) | fix(volume): validate sizes in ReadNeedleBlob and WriteNeedleBlob |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11483](https://github.com/seaweedfs/seaweedfs/pull/11483) | fix(volume-rust): reserve a disk before replacing a replica in VolumeCo… |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#12269](https://github.com/seaweedfs/seaweedfs/pull/12269) | fix(volume): reject a negative suffix length in Range headers |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#12270](https://github.com/seaweedfs/seaweedfs/pull/12270) | fix(s3): reject non-integer max-parts, part-number-marker and max-uploa… |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20085](https://github.com/influxdata/telegraf/pull/20085) | feat(inputs.jenkins): Allow adding build display name and description a… |
@@ -65,6 +65,7 @@ functions. I send the production bugs I hit upstream.
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1414](https://github.com/uptrace/bun/pull/1414) | fix(bunotel): honor WithMeterProvider when reporting DB stats metrics |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1415](https://github.com/uptrace/bun/pull/1415) | fix(relation): do not duplicate joined models on a shared base model |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1435](https://github.com/uptrace/bun/pull/1435) | fix: resolve map column types before scanning rows |
+| [version-fox/vfox](https://github.com/version-fox/vfox) | 4k | [#757](https://github.com/version-fox/vfox/pull/757) | fix(http): send the vfox User-Agent with vfox's own requests |
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#11229](https://github.com/apache/arrow-rs/pull/11229) | fix(parquet): support non-primitive map keys in record reader |
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#12006](https://github.com/apache/arrow-rs/pull/12006) | fix(arrow-string): saturate the length in Utf8View/BinaryView substring |
 | [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.7k | [#12007](https://github.com/apache/arrow-rs/pull/12007) | fix(arrow-json): reject out-of-range float timestamps instead of satura… |
@@ -91,13 +92,13 @@ functions. I send the production bugs I hit upstream.
 | [webrtc-rs/rtc](https://github.com/webrtc-rs/rtc) | 169 | [#315](https://github.com/webrtc-rs/rtc/pull/315) | fix(ice): answer USE-CANDIDATE checks without ICE-CONTROLLING on the co… |
 | [webrtc-rs/rtc](https://github.com/webrtc-rs/rtc) | 169 | [#317](https://github.com/webrtc-rs/rtc/pull/317) | fix(ice): re-check a Failed pair when the remote's Binding request arri… |
 | [pyhss/pyhss](https://github.com/pyhss/pyhss) | 115 | [#337](https://github.com/pyhss/pyhss/pull/337) | diameterService: iterate over a snapshot of activePeers |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#375](https://github.com/bluenviron/mediacommon/pull/375) | pmp4: support tracks without edts |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#376](https://github.com/bluenviron/mediacommon/pull/376) | pmp4: return seek errors from GetPayload |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#377](https://github.com/bluenviron/mediacommon/pull/377) | pmp4: support tracks longer than 2^32 ticks |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#398](https://github.com/bluenviron/mediacommon/pull/398) | h264: fix SPS width when ChromaArrayType is 0 |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 105 | [#399](https://github.com/bluenviron/mediacommon/pull/399) | av1: support sequence headers with initial display delay |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#368](https://github.com/bluenviron/mediacommon/pull/368) | h265: fix DTS extraction of streams with temporal sub-layers |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#373](https://github.com/bluenviron/mediacommon/pull/373) | pmp4: support stsz with a constant sample size (bluenviron/mediamtx#580… |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#375](https://github.com/bluenviron/mediacommon/pull/375) | pmp4: support tracks without edts |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#376](https://github.com/bluenviron/mediacommon/pull/376) | pmp4: return seek errors from GetPayload |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#377](https://github.com/bluenviron/mediacommon/pull/377) | pmp4: support tracks longer than 2^32 ticks |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#398](https://github.com/bluenviron/mediacommon/pull/398) | h264: fix SPS width when ChromaArrayType is 0 |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#399](https://github.com/bluenviron/mediacommon/pull/399) | av1: support sequence headers with initial display delay |
 | [free5gc/amf](https://github.com/free5gc/amf) | 23 | [#232](https://github.com/free5gc/amf/pull/232) | fix: guard non-string DNN type assertions in GMM handler |
 | [free5gc/udm](https://github.com/free5gc/udm) | 9 | [#96](https://github.com/free5gc/udm/pull/96) | fix(udm): return ProblemDetails for unmatched resource URIs |
 | [free5gc/tngf](https://github.com/free5gc/tngf) | 5 | [#47](https://github.com/free5gc/tngf/pull/47) | fix: prevent slice-bounds panic on malformed IKE SA proposal |
@@ -128,7 +129,6 @@ functions. I send the production bugs I hit upstream.
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1466](https://github.com/uptrace/bun/pull/1466) | fix: require primary keys for bulk UpdateQuery |
 | [uptrace/bun](https://github.com/uptrace/bun) | 5k | [#1467](https://github.com/uptrace/bun/pull/1467) | fix(pgdialect): scan int64 and float64 range bounds instead of panicking |
 | [linebender/resvg](https://github.com/linebender/resvg) | 4.2k | [#1234](https://github.com/linebender/resvg/pull/1234) | Fix integer overflows in feTurbulence |
-| [version-fox/vfox](https://github.com/version-fox/vfox) | 4k | [#757](https://github.com/version-fox/vfox/pull/757) | fix(http): send the vfox User-Agent with vfox's own requests |
 | [prometheus-community/postgres_exporter](https://github.com/prometheus-community/postgres_exporter) | 3.7k | [#1443](https://github.com/prometheus-community/postgres_exporter/pull/1443) | stat_wal_receiver: export metrics when replicating without a slot |
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3.5k | [#608](https://github.com/pdeljanov/Symphonia/pull/608) | isomp4: Fix integer overflow in stts sample lookups. |
 | [pdeljanov/Symphonia](https://github.com/pdeljanov/Symphonia) | 3.5k | [#609](https://github.com/pdeljanov/Symphonia/pull/609) | isomp4: Return an error instead of underflowing in MoofSegment sample l… |
@@ -151,7 +151,7 @@ functions. I send the production bugs I hit upstream.
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#511](https://github.com/ClickHouse/clickhouse-rs/pull/511) | feat(serde): add `::vec` helpers for temporal types |
-| [flock-php/flock](https://github.com/flock-php/flock) | 555 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
+| [flock-php/flock](https://github.com/flock-php/flock) | 563 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
 | [pion/rtp](https://github.com/pion/rtp) | 480 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
 | [tikv/client-go](https://github.com/tikv/client-go) | 364 | [#2171](https://github.com/tikv/client-go/pull/2171) | metrics: give each backoff config its own histogram label |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#177](https://github.com/gopacket/gopacket/pull/177) | packet: copy zero copy data on the Packets channel path |
