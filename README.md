@@ -185,7 +185,7 @@ security problems in software a lot of people run.
 
 | Repository | What it is |
 |---|---|
-| [go-diam](https://github.com/hsdfat/go-diam) | Typed, code-generated Diameter codecs for Go. proto3 in, plain structs with `Marshal`/`Unmarshal`/`Validate` out, no runtime dictionary. Pre-release: base protocol (RFC 6733), S6a/S6d, Cx/Dx and Sh/Dh so far, fuzzed and checked byte-for-byte against go-diameter |
+| [go-diam](https://github.com/hsdfat/go-diam) | Typed, code-generated Diameter codecs for Go. proto3 in, plain structs with `Marshal`/`Unmarshal`/`Validate` out, no runtime dictionary. `v0.2.0`: base protocol (RFC 6733) and ten 3GPP applications (S6a/S6d, S13, Cx/Dx, Sh/Dh, SWx, S6t, S6m/S6n, S6c, SLh, Zh), fuzzed and checked byte-for-byte against go-diameter; not yet verified against real peers |
 | [diam-gw](https://github.com/hsdfat/diam-gw) | Diameter gateway: client library and code generator, with CI and a performance budget |
 | [go-eir](https://github.com/hsdfat/go-eir) | Equipment Identity Register (EIR) in Go, hexagonal architecture |
 | [gohss](https://github.com/hsdfat/gohss) | HSS with S6a, Cx and Sh interfaces |
