@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**92 merged pull requests** (1 later reverted) across **41 upstream projects** totalling **485.5k stars** · **47** in review
+**96 merged pull requests** (1 later reverted) across **41 upstream projects** totalling **485.7k stars** · **43** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -34,7 +34,7 @@ functions. I send the production bugs I hit upstream.
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59.1k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 51.7k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 51.8k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 41k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -77,12 +77,15 @@ functions. I send the production bugs I hit upstream.
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1225](https://github.com/vishvananda/netlink/pull/1225) | filter: use EncDestIPMask when encoding Flower EncDestIP |
 | [xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc) | 3.3k | [#1501](https://github.com/xerial/sqlite-jdbc/pull/1501) | feat: redact encryption key pragmas in trace logs |
 | [pjsip/pjproject](https://github.com/pjsip/pjproject) | 2.7k | [#5384](https://github.com/pjsip/pjproject/pull/5384) | pjsua: make the maximum number of transports configurable |
+| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1.8k | [#5928](https://github.com/open-telemetry/opentelemetry-operator/pull/5928) | Update the Ingress class name on an existing Ingress |
 | [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1.8k | [#5929](https://github.com/open-telemetry/opentelemetry-operator/pull/5929) | Apply the image pull policy to Java extension init containers |
+| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1.8k | [#5930](https://github.com/open-telemetry/opentelemetry-operator/pull/5930) | Apply the revision history limit to the collector DaemonSet |
 | [obi1kenobi/cargo-semver-checks](https://github.com/obi1kenobi/cargo-semver-checks) | 1.7k | [#1797](https://github.com/obi1kenobi/cargo-semver-checks/pull/1797) | Add exported_function_now_variadic and exported_function_no_longer_vari… |
 | [hyperium/h2](https://github.com/hyperium/h2) | 1.6k | [#1002](https://github.com/hyperium/h2/pull/1002) | fix: requeue released credit on recv window shrink |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 948 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
 | [algesten/str0m](https://github.com/algesten/str0m) | 656 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
+| [algesten/str0m](https://github.com/algesten/str0m) | 656 | [#1142](https://github.com/algesten/str0m/pull/1142) | Keep ~ in sanitised msid ids |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
 | [jonas-grgt/ktea](https://github.com/jonas-grgt/ktea) | 447 | [#179](https://github.com/jonas-grgt/ktea/pull/179) | feat: allow configuring the debug log location with --debug=PATH |
@@ -104,6 +107,7 @@ functions. I send the production bugs I hit upstream.
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#398](https://github.com/bluenviron/mediacommon/pull/398) | h264: fix SPS width when ChromaArrayType is 0 |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#399](https://github.com/bluenviron/mediacommon/pull/399) | av1: support sequence headers with initial display delay |
 | [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#407](https://github.com/bluenviron/mediacommon/pull/407) | mpeg4video: fix crash when config ends with a start code prefix |
+| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#408](https://github.com/bluenviron/mediacommon/pull/408) | mpegts: read ADTS frames that span PES packets (#403) |
 | [free5gc/amf](https://github.com/free5gc/amf) | 23 | [#232](https://github.com/free5gc/amf/pull/232) | fix: guard non-string DNN type assertions in GMM handler |
 | [free5gc/udm](https://github.com/free5gc/udm) | 9 | [#96](https://github.com/free5gc/udm/pull/96) | fix(udm): return ProblemDetails for unmatched resource URIs |
 | [free5gc/tngf](https://github.com/free5gc/tngf) | 5 | [#47](https://github.com/free5gc/tngf/pull/47) | fix: prevent slice-bounds panic on malformed IKE SA proposal |
@@ -140,26 +144,22 @@ functions. I send the production bugs I hit upstream.
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1237](https://github.com/vishvananda/netlink/pull/1237) | netkit: add PeerAttrs getter |
 | [vishvananda/netlink](https://github.com/vishvananda/netlink) | 3.3k | [#1238](https://github.com/vishvananda/netlink/pull/1238) | Close subscribe sockets when the receive goroutine exits |
 | [tafia/calamine](https://github.com/tafia/calamine) | 2.5k | [#800](https://github.com/tafia/calamine/pull/800) | xlsb: return an error on unchecked indexes in malformed files |
-| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1.8k | [#5928](https://github.com/open-telemetry/opentelemetry-operator/pull/5928) | Update the Ingress class name on an existing Ingress |
-| [open-telemetry/opentelemetry-operator](https://github.com/open-telemetry/opentelemetry-operator) | 1.8k | [#5930](https://github.com/open-telemetry/opentelemetry-operator/pull/5930) | Apply the revision history limit to the collector DaemonSet |
 | [apache/iceberg-rust](https://github.com/apache/iceberg-rust) | 1.4k | [#3645](https://github.com/apache/iceberg-rust/pull/3645) | fix(transform): avoid overflow in adjust_boundary at type extremes |
 | [prometheus/statsd_exporter](https://github.com/prometheus/statsd_exporter) | 990 | [#769](https://github.com/prometheus/statsd_exporter/pull/769) | Add a gauge for the number of active metric vectors |
 | [pion/stun](https://github.com/pion/stun) | 866 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
 | [JFryy/qq](https://github.com/JFryy/qq) | 740 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
 | [algesten/str0m](https://github.com/algesten/str0m) | 656 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
-| [algesten/str0m](https://github.com/algesten/str0m) | 656 | [#1142](https://github.com/algesten/str0m/pull/1142) | Keep ~ in sanitised msid ids |
 | [asticode/go-astits](https://github.com/asticode/go-astits) | 618 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
+| [flock-php/flock](https://github.com/flock-php/flock) | 570 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#511](https://github.com/ClickHouse/clickhouse-rs/pull/511) | feat(serde): add `::vec` helpers for temporal types |
-| [flock-php/flock](https://github.com/flock-php/flock) | 569 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
 | [pion/rtp](https://github.com/pion/rtp) | 480 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
 | [tikv/client-go](https://github.com/tikv/client-go) | 364 | [#2171](https://github.com/tikv/client-go/pull/2171) | metrics: give each backoff config its own histogram label |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#177](https://github.com/gopacket/gopacket/pull/177) | packet: copy zero copy data on the Packets channel path |
 | [webrtc-rs/rtc](https://github.com/webrtc-rs/rtc) | 170 | [#316](https://github.com/webrtc-rs/rtc/pull/316) | fix(turn): track client permissions per peer IP, not per IP and port |
 | [pion/interceptor](https://github.com/pion/interceptor) | 149 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
 | [pyhss/pyhss](https://github.com/pyhss/pyhss) | 115 | [#338](https://github.com/pyhss/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
-| [bluenviron/mediacommon](https://github.com/bluenviron/mediacommon) | 106 | [#408](https://github.com/bluenviron/mediacommon/pull/408) | mpegts: read ADTS frames that span PES packets (#403) |
 | [free5gc/smf](https://github.com/free5gc/smf) | 26 | [#244](https://github.com/free5gc/smf/pull/244) | fix: release SMContext and reject when UDM token fetch fails |
 
 </details>
