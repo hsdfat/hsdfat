@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**96 merged pull requests** (1 later reverted) across **41 upstream projects** totalling **486.6k stars** · **44** in review
+**97 merged pull requests** (1 later reverted) across **41 upstream projects** totalling **486.7k stars** · **43** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -34,7 +34,7 @@ functions. I send the production bugs I hit upstream.
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59.1k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 52.6k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 52.7k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 41k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -47,6 +47,7 @@ functions. I send the production bugs I hit upstream.
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7110](https://github.com/grpc-ecosystem/grpc-gateway/pull/7110) | docs: add runnable OpenTelemetry tracing example |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20085](https://github.com/influxdata/telegraf/pull/20085) | feat(inputs.jenkins): Allow adding build display name and description a… |
+| [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20086](https://github.com/influxdata/telegraf/pull/20086) | feat(outputs.postgresql): Allow setting schema from a tag |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17.1k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read resource once for outputs (fixes #5658) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3752](https://github.com/IBM/sarama/pull/3752) | fix(client): only deregister the broker registered under that ID |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3852](https://github.com/IBM/sarama/pull/3852) | fix(protocol): don't send an unclean election as ElectLeaders v0 |
@@ -126,7 +127,6 @@ functions. I send the production bugs I hit upstream.
 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40.7k | [#73089](https://github.com/pingcap/tidb/pull/73089) | server: reject malformed packets instead of panicking or stalling |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.7k | [#6447](https://github.com/bluenviron/mediamtx/pull/6447) | playback: limit parallel segment reads in /list (#6446) |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20081](https://github.com/influxdata/telegraf/pull/20081) | feat(inputs.statsd): Add unixgram support |
-| [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20086](https://github.com/influxdata/telegraf/pull/20086) | feat(outputs.postgresql): Allow setting schema from a tag |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20087](https://github.com/influxdata/telegraf/pull/20087) | feat(logging): Add syslog as log format |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20088](https://github.com/influxdata/telegraf/pull/20088) | fix(common.opcua): Handle LocalizedText node values |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20089](https://github.com/influxdata/telegraf/pull/20089) | feat(outputs.mqtt): Add last will and testament support |
