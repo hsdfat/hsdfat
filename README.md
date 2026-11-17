@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**97 merged pull requests** (1 later reverted) across **41 upstream projects** totalling **486.7k stars** · **43** in review
+**98 merged pull requests** (1 later reverted) across **41 upstream projects** totalling **487.5k stars** · **42** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -18,23 +18,23 @@ functions. I send the production bugs I hit upstream.
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.1k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9869](https://github.com/rclone/rclone/pull/9869) | dropbox: match shared-folder and received-file names case-insensitively |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9870](https://github.com/rclone/rclone/pull/9870) | serve docker: fix volume path being lost when the plugin restarts |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9872](https://github.com/rclone/rclone/pull/9872) | fs/config: only run --password-command once when using --daemon |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9944](https://github.com/rclone/rclone/pull/9944) | operations: make --immutable work with copyto, moveto and single file c… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9945](https://github.com/rclone/rclone/pull/9945) | smb: save the user name in the config even if it matches the current us… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9947](https://github.com/rclone/rclone/pull/9947) | local: stop --copy-links following symlink loops - fixes #4402 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9949](https://github.com/rclone/rclone/pull/9949) | vfs: fix AddVirtual ignoring isDir |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9950](https://github.com/rclone/rclone/pull/9950) | serve dlna: log unescaped paths - fixes #7370 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9977](https://github.com/rclone/rclone/pull/9977) | docker: add mailcap for /etc/mime.types - fixes #6384 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10057](https://github.com/rclone/rclone/pull/10057) | lib/batcher: log when committing uploads has finished - fixes #5564 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59.1k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 52.7k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 53.4k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
 | [nushell/nushell](https://github.com/nushell/nushell) | 41k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.1k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
@@ -48,6 +48,7 @@ functions. I send the production bugs I hit upstream.
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | [#7207](https://github.com/grpc-ecosystem/grpc-gateway/pull/7207) | fix(openapiv2): omit oneof siblings of path parameters from query param… |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20085](https://github.com/influxdata/telegraf/pull/20085) | feat(inputs.jenkins): Allow adding build display name and description a… |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20086](https://github.com/influxdata/telegraf/pull/20086) | feat(outputs.postgresql): Allow setting schema from a tag |
+| [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20088](https://github.com/influxdata/telegraf/pull/20088) | fix(common.opcua): Handle LocalizedText node values |
 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17.1k | [#16602](https://github.com/argoproj/argo-workflows/pull/16602) | perf(executor): read resource once for outputs (fixes #5658) |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3752](https://github.com/IBM/sarama/pull/3752) | fix(client): only deregister the broker registered under that ID |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3852](https://github.com/IBM/sarama/pull/3852) | fix(protocol): don't send an unclean election as ElectLeaders v0 |
@@ -92,7 +93,7 @@ functions. I send the production bugs I hit upstream.
 | [jonas-grgt/ktea](https://github.com/jonas-grgt/ktea) | 448 | [#179](https://github.com/jonas-grgt/ktea/pull/179) | feat: allow configuring the debug log location with --debug=PATH |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 368 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 368 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
-| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
+| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 321 | [#172](https://github.com/gopacket/gopacket/pull/172) | **Reverted after merge.** packet: set zeroCopy in NewZeroCopyPacketSource |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 298 | [#262](https://github.com/fiorix/go-diameter/pull/262) | diam: key the Unmarshal AVP index by {Code, VendorID} |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 298 | [#275](https://github.com/fiorix/go-diameter/pull/275) | diam: match the Vendor-Id in FindAVP, FindAVPs and FindAVPsWithPath |
 | [fiorix/go-diameter](https://github.com/fiorix/go-diameter) | 298 | [#276](https://github.com/fiorix/go-diameter/pull/276) | diam: keep only the P flag of the request in Answer |
@@ -120,15 +121,14 @@ functions. I send the production bugs I hit upstream.
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.1k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10271](https://github.com/rclone/rclone/pull/10271) | fs: add --max-errors flag - fixes #4670 |
-| [rclone/rclone](https://github.com/rclone/rclone) | 61k | [#10279](https://github.com/rclone/rclone/pull/10279) | ls, lsl, lsd, lsf, lsjson: add --output-file flag - fixes #8358 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10271](https://github.com/rclone/rclone/pull/10271) | fs: add --max-errors flag - fixes #4670 |
+| [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10279](https://github.com/rclone/rclone/pull/10279) | ls, lsl, lsd, lsf, lsjson: add --output-file flag - fixes #8358 |
 | [wagoodman/dive](https://github.com/wagoodman/dive) | 54.7k | [#735](https://github.com/wagoodman/dive/pull/735) | fix: drop lower dir contents when a layer replaces the dir with a symli… |
 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40.7k | [#73089](https://github.com/pingcap/tidb/pull/73089) | server: reject malformed packets instead of panicking or stalling |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.7k | [#6447](https://github.com/bluenviron/mediamtx/pull/6447) | playback: limit parallel segment reads in /list (#6446) |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20081](https://github.com/influxdata/telegraf/pull/20081) | feat(inputs.statsd): Add unixgram support |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20087](https://github.com/influxdata/telegraf/pull/20087) | feat(logging): Add syslog as log format |
-| [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20088](https://github.com/influxdata/telegraf/pull/20088) | fix(common.opcua): Handle LocalizedText node values |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20089](https://github.com/influxdata/telegraf/pull/20089) | feat(outputs.mqtt): Add last will and testament support |
 | [swaggo/swag](https://github.com/swaggo/swag) | 13.1k | [#2239](https://github.com/swaggo/swag/pull/2239) | fix(v3): support title struct tag in OpenAPI 3.1 field parser |
 | [IBM/sarama](https://github.com/IBM/sarama) | 12.5k | [#3753](https://github.com/IBM/sarama/pull/3753) | fix(offset): avoid deadlock when closing during a blocked commit |
@@ -151,13 +151,13 @@ functions. I send the production bugs I hit upstream.
 | [JFryy/qq](https://github.com/JFryy/qq) | 740 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
 | [algesten/str0m](https://github.com/algesten/str0m) | 657 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
 | [asticode/go-astits](https://github.com/asticode/go-astits) | 618 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
-| [flock-php/flock](https://github.com/flock-php/flock) | 576 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
+| [flock-php/flock](https://github.com/flock-php/flock) | 578 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#511](https://github.com/ClickHouse/clickhouse-rs/pull/511) | feat(serde): add `::vec` helpers for temporal types |
 | [pion/rtp](https://github.com/pion/rtp) | 480 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
-| [tikv/client-go](https://github.com/tikv/client-go) | 364 | [#2171](https://github.com/tikv/client-go/pull/2171) | metrics: give each backoff config its own histogram label |
-| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 320 | [#177](https://github.com/gopacket/gopacket/pull/177) | packet: copy zero copy data on the Packets channel path |
+| [tikv/client-go](https://github.com/tikv/client-go) | 365 | [#2171](https://github.com/tikv/client-go/pull/2171) | metrics: give each backoff config its own histogram label |
+| [gopacket/gopacket](https://github.com/gopacket/gopacket) | 321 | [#177](https://github.com/gopacket/gopacket/pull/177) | packet: copy zero copy data on the Packets channel path |
 | [webrtc-rs/rtc](https://github.com/webrtc-rs/rtc) | 170 | [#316](https://github.com/webrtc-rs/rtc/pull/316) | fix(turn): track client permissions per peer IP, not per IP and port |
 | [pion/interceptor](https://github.com/pion/interceptor) | 149 | [#470](https://github.com/pion/interceptor/pull/470) | Assign RTX sequence numbers at send time |
 | [pyhss/pyhss](https://github.com/pyhss/pyhss) | 115 | [#338](https://github.com/pyhss/pyhss/pull/338) | diameter: answer with an error Result-Code when a handler raises |
