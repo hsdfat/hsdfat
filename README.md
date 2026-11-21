@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**100 merged pull requests** (1 later reverted) across **41 upstream projects** totalling **489.5k stars** · **40** in review
+**100 merged pull requests** (1 later reverted) across **41 upstream projects** totalling **489.6k stars** · **40** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -17,7 +17,7 @@ functions. I send the production bugs I hit upstream.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.3k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.4k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
@@ -34,8 +34,8 @@ functions. I send the production bugs I hit upstream.
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10220](https://github.com/rclone/rclone/pull/10220) | serve sftp: fix rmdir deleting a file instead of returning an error |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59.2k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 54.8k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
-| [nushell/nushell](https://github.com/nushell/nushell) | 41k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 54.9k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [nushell/nushell](https://github.com/nushell/nushell) | 41.1k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.2k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.2k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.2k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -122,11 +122,11 @@ functions. I send the production bugs I hit upstream.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.3k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.4k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10271](https://github.com/rclone/rclone/pull/10271) | fs: add --max-errors flag - fixes #4670 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.1k | [#10279](https://github.com/rclone/rclone/pull/10279) | ls, lsl, lsd, lsf, lsjson: add --output-file flag - fixes #8358 |
-| [wagoodman/dive](https://github.com/wagoodman/dive) | 54.7k | [#735](https://github.com/wagoodman/dive/pull/735) | fix: drop lower dir contents when a layer replaces the dir with a symli… |
+| [wagoodman/dive](https://github.com/wagoodman/dive) | 54.8k | [#735](https://github.com/wagoodman/dive/pull/735) | fix: drop lower dir contents when a layer replaces the dir with a symli… |
 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40.8k | [#73089](https://github.com/pingcap/tidb/pull/73089) | server: reject malformed packets instead of panicking or stalling |
 | [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) | 20.7k | [#6447](https://github.com/bluenviron/mediamtx/pull/6447) | playback: limit parallel segment reads in /list (#6446) |
 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.9k | [#20081](https://github.com/influxdata/telegraf/pull/20081) | feat(inputs.statsd): Add unixgram support |
@@ -146,12 +146,12 @@ functions. I send the production bugs I hit upstream.
 | [tafia/calamine](https://github.com/tafia/calamine) | 2.5k | [#800](https://github.com/tafia/calamine/pull/800) | xlsb: return an error on unchecked indexes in malformed files |
 | [tafia/calamine](https://github.com/tafia/calamine) | 2.5k | [#804](https://github.com/tafia/calamine/pull/804) | xls: use the format string of a Format record with any id |
 | [apache/iceberg-rust](https://github.com/apache/iceberg-rust) | 1.4k | [#3645](https://github.com/apache/iceberg-rust/pull/3645) | fix(transform): avoid overflow in adjust_boundary at type extremes |
-| [prometheus/statsd_exporter](https://github.com/prometheus/statsd_exporter) | 990 | [#769](https://github.com/prometheus/statsd_exporter/pull/769) | Add a gauge for the number of active metric vectors |
+| [prometheus/statsd_exporter](https://github.com/prometheus/statsd_exporter) | 989 | [#769](https://github.com/prometheus/statsd_exporter/pull/769) | Add a gauge for the number of active metric vectors |
 | [pion/stun](https://github.com/pion/stun) | 866 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
 | [JFryy/qq](https://github.com/JFryy/qq) | 740 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
 | [algesten/str0m](https://github.com/algesten/str0m) | 661 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
 | [asticode/go-astits](https://github.com/asticode/go-astits) | 617 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
-| [flock-php/flock](https://github.com/flock-php/flock) | 597 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
+| [flock-php/flock](https://github.com/flock-php/flock) | 598 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
 | [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#511](https://github.com/ClickHouse/clickhouse-rs/pull/511) | feat(serde): add `::vec` helpers for temporal types |
