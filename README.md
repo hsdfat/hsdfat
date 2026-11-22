@@ -176,12 +176,14 @@ security problems in software a lot of people run.
 |---|---|
 | [webrtc-rs #954](https://github.com/webrtc-rs/webrtc/pull/954) | Every STUN Binding request went out with the all-zero transaction ID; now random per RFC 8489 |
 | [mediacommon #377](https://github.com/bluenviron/mediacommon/pull/377) | MP4 export wrapped the duration of tracks longer than 2^32 ticks (about 13 h), so players stopped early |
+| [mediacommon #408](https://github.com/bluenviron/mediacommon/pull/408) | MPEG-TS reader failed on AAC streams whose ADTS frames span PES packets; frames are now joined across packets |
 | [hyperium/h2 #1002](https://github.com/hyperium/h2/pull/1002) | HTTP/2 streams stalled after the receive window was lowered: released credit was never sent as a WINDOW_UPDATE |
 | [gitea #38693](https://github.com/go-gitea/gitea/pull/38693) | LFS: a failed upload no longer deletes a concurrent upload's metadata |
 | [velero #10212](https://github.com/velero-io/velero/pull/10212) | Zip Slip check accepted a sibling directory during archive extraction |
 | [rclone #9947](https://github.com/rclone/rclone/pull/9947) | `--copy-links` no longer follows symlink loops |
 | [seaweedfs #11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | Volume server returns an error instead of panicking on a corrupt needle |
 | [sarama #3752](https://github.com/IBM/sarama/pull/3752) | Client only deregisters the broker registered under that ID |
+| [sarama #3753](https://github.com/IBM/sarama/pull/3753) | Closing a partition offset manager deadlocked while a commit was blocked on the errors channel |
 | [woodpecker #7192](https://github.com/woodpecker-ci/woodpecker/pull/7192) | Race on concurrent pipeline config persist |
 
 ## Projects
