@@ -8,7 +8,7 @@ functions. I send the production bugs I hit upstream.
 
 <!-- OSS-STATS:START -->
 
-**103 merged pull requests** (1 later reverted) across **42 upstream projects** totalling **492.4k stars** · **36** in review
+**103 merged pull requests** (1 later reverted) across **42 upstream projects** totalling **492.7k stars** · **36** in review
 
 <details>
 <summary>Browse every merged and open upstream pull request</summary>
@@ -17,7 +17,7 @@ functions. I send the production bugs I hit upstream.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.6k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.7k | [#8063](https://github.com/caddyserver/caddy/pull/8063) | caddyauth: support third-party hash modules |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.3k | [#9693](https://github.com/rclone/rclone/pull/9693) | fserrors: make http2 "server sent GOAWAY" a retriable error - fixes #96… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.3k | [#9751](https://github.com/rclone/rclone/pull/9751) | operations: check checksums in rcat with known size - fixes #6305 |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.3k | [#9868](https://github.com/rclone/rclone/pull/9868) | dropbox: fix shared folder mount for roots nested more than one level d… |
@@ -35,8 +35,8 @@ functions. I send the production bugs I hit upstream.
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.3k | [#10221](https://github.com/rclone/rclone/pull/10221) | serve dlna: fix crash on Browse with a negative StartingIndex or Reques… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.3k | [#10271](https://github.com/rclone/rclone/pull/10271) | fs: add --max-errors flag - fixes #4670 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 59.3k | [#38693](https://github.com/go-gitea/gitea/pull/38693) | fix(lfs): failed upload deletes a concurrent upload's meta object |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 56.8k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
-| [nushell/nushell](https://github.com/nushell/nushell) | 41.1k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 57k | [#501](https://github.com/alibaba/open-code-review/pull/501) | feat(allowlist): add Julia (.jl) support |
+| [nushell/nushell](https://github.com/nushell/nushell) | 41.2k | [#19092](https://github.com/nushell/nushell/pull/19092) | Clear sqlite history with SQL instead of deleting the file |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.3k | [#10656](https://github.com/seaweedfs/seaweedfs/pull/10656) | s3api: fix ListObjectsV2 dropping objects under a partial prefix |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.3k | [#11393](https://github.com/seaweedfs/seaweedfs/pull/11393) | fix(volume): return an error instead of panicking on a corrupt needle s… |
 | [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 36.3k | [#11397](https://github.com/seaweedfs/seaweedfs/pull/11397) | fix(volume): return an error instead of 201 when a write lands on no vo… |
@@ -89,11 +89,11 @@ functions. I send the production bugs I hit upstream.
 | [hyperium/h2](https://github.com/hyperium/h2) | 1.6k | [#1002](https://github.com/hyperium/h2/pull/1002) | fix: requeue released credit on recv window shrink |
 | [nginx/nginx-gateway-fabric](https://github.com/nginx/nginx-gateway-fabric) | 1.2k | [#5639](https://github.com/nginx/nginx-gateway-fabric/pull/5639) | fix: correct validation error diagnostics and add missing CRD schema co… |
 | [bluenviron/gortsplib](https://github.com/bluenviron/gortsplib) | 947 | [#1171](https://github.com/bluenviron/gortsplib/pull/1171) | sdp: support oversized numbers in origin (bluenviron/mediamtx#5949) |
-| [algesten/str0m](https://github.com/algesten/str0m) | 666 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
-| [algesten/str0m](https://github.com/algesten/str0m) | 666 | [#1142](https://github.com/algesten/str0m/pull/1142) | Keep ~ in sanitised msid ids |
-| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
-| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
-| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#511](https://github.com/ClickHouse/clickhouse-rs/pull/511) | feat(serde): add `::vec` helpers for temporal types |
+| [algesten/str0m](https://github.com/algesten/str0m) | 669 | [#1058](https://github.com/algesten/str0m/pull/1058) | Limit pacer burst size at high bitrates |
+| [algesten/str0m](https://github.com/algesten/str0m) | 669 | [#1142](https://github.com/algesten/str0m/pull/1142) | Keep ~ in sanitised msid ids |
+| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 570 | [#478](https://github.com/ClickHouse/clickhouse-rs/pull/478) | fix(types): parse JSON type hints with parenthesized types |
+| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 570 | [#481](https://github.com/ClickHouse/clickhouse-rs/pull/481) | fix: use a derived query ID for insert schema lookups |
+| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 570 | [#511](https://github.com/ClickHouse/clickhouse-rs/pull/511) | feat(serde): add `::vec` helpers for temporal types |
 | [jonas-grgt/ktea](https://github.com/jonas-grgt/ktea) | 448 | [#179](https://github.com/jonas-grgt/ktea/pull/179) | feat: allow configuring the debug log location with --debug=PATH |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 369 | [#212](https://github.com/kerlenton/mcpsnoop/pull/212) | feat(check): emit SARIF 2.1.0 so findings land in the Security tab |
 | [kerlenton/mcpsnoop](https://github.com/kerlenton/mcpsnoop) | 369 | [#213](https://github.com/kerlenton/mcpsnoop/pull/213) | feat(cli): wrap and unwrap the Claude Desktop config for one server |
@@ -125,7 +125,7 @@ functions. I send the production bugs I hit upstream.
 
 | Project | ★ | PR | Contribution |
 |---|---:|---|---|
-| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.6k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
+| [caddyserver/caddy](https://github.com/caddyserver/caddy) | 79.7k | [#8062](https://github.com/caddyserver/caddy/pull/8062) | caddyhttp: Add status_code option to http_redirect listener wrapper |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.3k | [#9946](https://github.com/rclone/rclone/pull/9946) | serve sftp, serve webdav: fix stale hashes reported while a file is bei… |
 | [rclone/rclone](https://github.com/rclone/rclone) | 61.3k | [#10279](https://github.com/rclone/rclone/pull/10279) | ls, lsl, lsd, lsf, lsjson: add --output-file flag - fixes #8358 |
 | [wagoodman/dive](https://github.com/wagoodman/dive) | 54.8k | [#735](https://github.com/wagoodman/dive/pull/735) | fix: drop lower dir contents when a layer replaces the dir with a symli… |
@@ -149,13 +149,13 @@ functions. I send the production bugs I hit upstream.
 | [apache/iceberg-rust](https://github.com/apache/iceberg-rust) | 1.5k | [#3645](https://github.com/apache/iceberg-rust/pull/3645) | fix(transform): avoid overflow in adjust_boundary at type extremes |
 | [prometheus/statsd_exporter](https://github.com/prometheus/statsd_exporter) | 989 | [#769](https://github.com/prometheus/statsd_exporter/pull/769) | Add a gauge for the number of active metric vectors |
 | [pion/stun](https://github.com/pion/stun) | 868 | [#301](https://github.com/pion/stun/pull/301) | Restrict stun-client to IPv4 |
-| [JFryy/qq](https://github.com/JFryy/qq) | 740 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
-| [algesten/str0m](https://github.com/algesten/str0m) | 666 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
-| [flock-php/flock](https://github.com/flock-php/flock) | 646 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
+| [JFryy/qq](https://github.com/JFryy/qq) | 741 | [#108](https://github.com/JFryy/qq/pull/108) | feat: add --indent flag to control output indentation |
+| [algesten/str0m](https://github.com/algesten/str0m) | 669 | [#1129](https://github.com/algesten/str0m/pull/1129) | Remove native OpenSSL DTLS; use dimpl for the openssl backend |
+| [flock-php/flock](https://github.com/flock-php/flock) | 660 | [#116](https://github.com/flock-php/flock/pull/116) | fix(cli): respect ZDOTDIR when adding Flock to the zsh PATH |
 | [asticode/go-astits](https://github.com/asticode/go-astits) | 619 | [#79](https://github.com/asticode/go-astits/pull/79) | Sync to the first packet when the stream doesn't start with a sync byte |
-| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
-| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 569 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
-| [pion/rtp](https://github.com/pion/rtp) | 481 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
+| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 570 | [#507](https://github.com/ClickHouse/clickhouse-rs/pull/507) | feat: add Insert::set_buffer_size() |
+| [ClickHouse/clickhouse-rs](https://github.com/ClickHouse/clickhouse-rs) | 570 | [#508](https://github.com/ClickHouse/clickhouse-rs/pull/508) | feat: support different column names for serialization and deserializat… |
+| [pion/rtp](https://github.com/pion/rtp) | 482 | [#372](https://github.com/pion/rtp/pull/372) | Drop H264 FU-A fragments without a start |
 | [tikv/client-go](https://github.com/tikv/client-go) | 364 | [#2171](https://github.com/tikv/client-go/pull/2171) | metrics: give each backoff config its own histogram label |
 | [gopacket/gopacket](https://github.com/gopacket/gopacket) | 322 | [#177](https://github.com/gopacket/gopacket/pull/177) | packet: copy zero copy data on the Packets channel path |
 | [webrtc-rs/rtc](https://github.com/webrtc-rs/rtc) | 174 | [#316](https://github.com/webrtc-rs/rtc/pull/316) | fix(turn): track client permissions per peer IP, not per IP and port |
